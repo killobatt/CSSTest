@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		06B98CEBFC95B5D6876141B4 /* Pods_CSSTest_Classy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DDB079C5866D8B07C59DFC /* Pods_CSSTest_Classy.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CBB3F5761AFF9D41006EDDA2 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */; };
+		CBB3F5791AFFACB2006EDDA2 /* AlbumTracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F5781AFFACB2006EDDA2 /* AlbumTracksViewController.m */; };
+		CBB3F57F1AFFAD98006EDDA2 /* TrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F57E1AFFAD98006EDDA2 /* TrackTableViewCell.m */; };
 		CBE944231AFE7EA40036530F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944221AFE7EA40036530F /* main.m */; };
 		CBE944261AFE7EA40036530F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944251AFE7EA40036530F /* AppDelegate.m */; };
 		CBE944291AFE7EA40036530F /* AlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944281AFE7EA40036530F /* AlbumListViewController.m */; };
@@ -59,6 +61,10 @@
 		86BC4A154016E5D0F4D132D9 /* Pods-CSSTest-Classy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSTest-Classy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSSTest-Classy/Pods-CSSTest-Classy.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB3F5741AFF9D40006EDDA2 /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
 		CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		CBB3F5771AFFACB2006EDDA2 /* AlbumTracksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTracksViewController.h; sourceTree = "<group>"; };
+		CBB3F5781AFFACB2006EDDA2 /* AlbumTracksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTracksViewController.m; sourceTree = "<group>"; };
+		CBB3F57D1AFFAD98006EDDA2 /* TrackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackTableViewCell.h; sourceTree = "<group>"; };
+		CBB3F57E1AFFAD98006EDDA2 /* TrackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackTableViewCell.m; sourceTree = "<group>"; };
 		CBE9441D1AFE7EA40036530F /* CSSTest-Classy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSSTest-Classy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE944211AFE7EA40036530F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE944221AFE7EA40036530F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -175,6 +181,10 @@
 				CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */,
 				CBE9442A1AFE7EA40036530F /* AlbumViewController.h */,
 				CBE9442B1AFE7EA40036530F /* AlbumViewController.m */,
+				CBB3F5771AFFACB2006EDDA2 /* AlbumTracksViewController.h */,
+				CBB3F5781AFFACB2006EDDA2 /* AlbumTracksViewController.m */,
+				CBB3F57D1AFFAD98006EDDA2 /* TrackTableViewCell.h */,
+				CBB3F57E1AFFAD98006EDDA2 /* TrackTableViewCell.m */,
 				CBE9442D1AFE7EA40036530F /* Main.storyboard */,
 				CBE944321AFE7EA40036530F /* LaunchScreen.xib */,
 				CBE944201AFE7EA40036530F /* Supporting Files */,
@@ -549,7 +559,9 @@
 				CBE944B41AFF84300036530F /* DataModel.m in Sources */,
 				CBE944291AFE7EA40036530F /* AlbumListViewController.m in Sources */,
 				CBE944231AFE7EA40036530F /* main.m in Sources */,
+				CBB3F5791AFFACB2006EDDA2 /* AlbumTracksViewController.m in Sources */,
 				CBE9442C1AFE7EA40036530F /* AlbumViewController.m in Sources */,
+				CBB3F57F1AFFAD98006EDDA2 /* TrackTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

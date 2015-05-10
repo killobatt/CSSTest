@@ -7,6 +7,7 @@
 //
 
 #import "AlbumViewController.h"
+#import "AlbumTracksViewController.h"
 
 @interface AlbumViewController ()
 
@@ -17,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *artworkImageView;
 
 @property (strong, nonatomic) NSDateFormatter *yearFormatter;
+@property (strong, nonatomic) AlbumTracksViewController *tracksController;
 
 @end
 
@@ -63,6 +65,15 @@
         if (artwork) {
             self.artworkImageView.image = [artwork imageWithSize:self.artworkImageView.frame.size];
         }
+    }
+    self.tracksController.album = self.album;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"EmbedAlbumTracks"]) {
+        self.tracksController = (AlbumTracksViewController *)segue.destinationViewController;
+        self.tracksController.album = self.album;
     }
 }
 

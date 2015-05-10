@@ -83,7 +83,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBo-cY-ot5">
                                 <rect key="frame" x="0.0" y="224" width="600" height="276"/>
                                 <connections>
-                                    <segue destination="E0n-fx-x9M" kind="embed" id="4oN-cr-MWk"/>
+                                    <segue destination="E0n-fx-x9M" kind="embed" identifier="EmbedAlbumTracks" id="4oN-cr-MWk"/>
                                 </connections>
                             </containerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1988" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnX-IL-TlP">
@@ -144,20 +144,45 @@
             </objects>
             <point key="canvasLocation" x="709" y="129"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Album Tracks View Controller-->
         <scene sceneID="igS-1b-Emj">
             <objects>
-                <tableViewController id="E0n-fx-x9M" sceneMemberID="viewController">
+                <tableViewController id="E0n-fx-x9M" customClass="AlbumTracksViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Bnj-NI-3JW">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="276"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrackCell" id="eih-0C-hjL">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrackCell" id="eih-0C-hjL" customClass="TrackTableViewCell">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eih-0C-hjL" id="LRL-Rg-rGh">
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DA2-h6-fvd">
+                                            <rect key="frame" x="543" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="490" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAn-lj-2NY">
+                                            <rect key="frame" x="8" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="DA2-h6-fvd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="JAn-lj-2NY" secondAttribute="trailing" id="ByX-vi-igm"/>
+                                        <constraint firstAttribute="centerY" secondItem="JAn-lj-2NY" secondAttribute="centerY" id="DbQ-0f-Wet"/>
+                                        <constraint firstItem="JAn-lj-2NY" firstAttribute="leading" secondItem="LRL-Rg-rGh" secondAttribute="leadingMargin" id="Ic3-Tv-Ufp"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="DA2-h6-fvd" secondAttribute="trailing" constant="7" id="def-7t-eIp"/>
+                                        <constraint firstAttribute="centerY" secondItem="DA2-h6-fvd" secondAttribute="centerY" id="tG5-p8-sft"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="durationLabel" destination="DA2-h6-fvd" id="0KW-JX-OjR"/>
+                                    <outlet property="trackTitle" destination="JAn-lj-2NY" id="Obl-Qn-RNG"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
