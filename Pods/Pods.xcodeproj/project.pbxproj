@@ -1,0 +1,1630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0082C22760EF0E706439290A /* Parcoa+Numbers.h in Headers */ = {isa = PBXBuildFile; fileRef = AD42527C2DEE27A7D9E6D7DF /* Parcoa+Numbers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0441A5B98F8A2F01B3F61E88 /* ISSPropertyDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF611C924C96B69E8D12DA4 /* ISSPropertyDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07008E2F559A013460D7DAA4 /* UITabBar+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 585F8679916816DD0A4EED94 /* UITabBar+CASAdditions.m */; };
+		07C92BFC163F659C52AF5754 /* CASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 82ADDB7CE39454B9E1963A6F /* CASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08586ABACAF0B76387B2F0A3 /* ISSViewBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4077847539015EE110F1C519 /* ISSViewBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B274155DDACAAC0086DAFC /* UINavigationBar+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 766C4A3DC0164A2B63BAA29C /* UINavigationBar+CASAdditions.m */; };
+		0AD854AD76CB0CFB5B39AA3D /* Parcoa+NSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F76144C81FE3CA2B2C76C6E /* Parcoa+NSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CB239FFE632C5B865324500 /* Parcoa+Combinators.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AE979982519B4F62C6EAF3 /* Parcoa+Combinators.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F434BA5526575261CF8338C /* Parcoa+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D81CDE34A08AFAC613F855 /* Parcoa+Internal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1013AD06FBCF6E77EB8AA734 /* UIColor+ISSColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1CC20AEA10CC1A25368A96 /* UIColor+ISSColorAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		107445B90B519117E8419FF2 /* ISSPropertyDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = 273289BAD498025D6A56D3E9 /* ISSPropertyDeclaration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E5061F768CDDA8E5BEC44D /* ParcoaParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53466220A437886E7B7904CB /* ParcoaParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		128FAB29B0B8C2064777FCA2 /* UIToolbar+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E8AEFBB94BC8D5EC0FBD18 /* UIToolbar+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177B633A151B986F4644962A /* ISSPropertyDeclarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3050EBAF7F60B33E76ED4492 /* ISSPropertyDeclarations.m */; };
+		18F0C01B2D7B921E0EA6DD73 /* ISSPropertyDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F00C73C042F8DAB6797D378 /* ISSPropertyDefinition.m */; };
+		19EA4DA326215931EA7A518C /* UIViewController+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41657F8685E943707AA616A3 /* UIViewController+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A2A1F19572E129F489D1C17 /* ISSPropertyDeclarations.h in Headers */ = {isa = PBXBuildFile; fileRef = F781651252653A4E8E0D3638 /* ISSPropertyDeclarations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC2FDD60A20247DE0C0263F /* CASDeviceSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 741CCDFD6DC3B627F9BEF779 /* CASDeviceSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D4813C31DB30F9B85E2F354 /* NSAttributedString+ISSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C17EF8B79ADA6B37167266CA /* NSAttributedString+ISSAdditions.m */; };
+		1DA6FA19728E3E9FFA41A1E1 /* CASParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0684D33B1015333C19EEAA88 /* CASParser.m */; };
+		1E57DAA13BD82E315BB2472B /* Parcoa+Primitives.m in Sources */ = {isa = PBXBuildFile; fileRef = 1660BD6D5D0F7DAAFE21220C /* Parcoa+Primitives.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1F2F6B870B4E7315EF9150CD /* UITextField+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E643D38A64C80D0FD183836 /* UITextField+CASAdditions.m */; };
+		211F9A3A4D3F71C29D13BD64 /* NSMutableArray+ISSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 650AA863FDA8E1BE63CB1DE5 /* NSMutableArray+ISSAdditions.m */; };
+		22A72CCA40205AC037D540A4 /* ISSStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCC0258CEEC105BFF8A37FA /* ISSStyleSheet.m */; };
+		242EE3AC23473FE62AB99E51 /* ParcoaParser+Combinators.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DB0F28E16C953CEBF435FD /* ParcoaParser+Combinators.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25B58D5BBEE9B7F142BE08A0 /* CASToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA89A4336A92FDDBBC6CD26 /* CASToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2767AF735C582BA517489E17 /* Parcoa+ISSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B532274E04607F6674D2E5DC /* Parcoa+ISSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28A269CB9D82BEBE9F6B32A8 /* ISSStyleSheetParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C36C7A2A3A7703881D3B0B2A /* ISSStyleSheetParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28E98C21EB2CFC0C619014EE /* UIToolbar+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2EE9F55EA58DEE96F1884F0 /* UIToolbar+CASAdditions.m */; };
+		29CA4B11C9219FFEE7707198 /* CASToken.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB32FDAC4C38A3F910875BD /* CASToken.m */; };
+		2A119C1C89C2892BBAAFFAE5 /* ISSViewPrototype.h in Headers */ = {isa = PBXBuildFile; fileRef = 2657B3F42BDA25FF4D91F8C9 /* ISSViewPrototype.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE80C141108A0F05A1E5A44 /* ISSSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5E279B208E372A83ADE9E7 /* ISSSelector.m */; };
+		2E5FDDA7CCE13EA8B085426F /* ISSDateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C545FF9519F367D32430141 /* ISSDateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30635EFF9224DD81D4949C26 /* Parcoa+Primitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A45C629738C059F9BDF7D6D /* Parcoa+Primitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		306F2407E9117FFFE0608E3B /* ParcoaParser+NSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 717A014778718904A388BC8A /* ParcoaParser+NSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		317D90782D47468A43763A35 /* UIBarItem+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8E974B9935007F8674A4BB /* UIBarItem+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33999277C4ED176127B4B121 /* ISSRectValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E686E4811B7273CC9A5A6498 /* ISSRectValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BF9E57CBC68B26BE4BFAAB /* CASArgumentDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7871A3888A78ACD1527F1F29 /* CASArgumentDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383D5C9CB64D156EC103A374 /* ISSSelectorChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8E2249E6B2B8CFA462FEDE /* ISSSelectorChain.m */; };
+		38D931FBACDEF339AF6CDF3C /* CASInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE2D4039CDE351484FDE65D /* CASInvocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BC5719F1A2F7E5521B02D08 /* CASStyleSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 931641D945A04117F0BBD8B7 /* CASStyleSelector.m */; };
+		3C55BD7CB7EBF3A37CF8DB1E /* CASLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 551A6B770CAA9F1E9609112A /* CASLexer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		414D13B8F8DFCC56B5E2CE95 /* ISSViewHierarchyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C3FCB4A269FC518F399A39 /* ISSViewHierarchyParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E89E53CDB8E414743CDE1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78A7164D0B209A523C6056 /* Foundation.framework */; };
+		4597A5454A8C61CD830C6E46 /* NSString+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DDED0E9603601F518A3265 /* NSString+CASAdditions.m */; };
+		46D85208D52EB6CEC51C4CE0 /* NSString+Parcoa.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EDF08D03CAFB035C948B1C /* NSString+Parcoa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46FA54384B4C6D92D723DEF2 /* ISSPropertyDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F5CD2BD5ACA7FDB4650312 /* ISSPropertyDeclaration.m */; };
+		498F4F5BA3F4E019479239C5 /* Classy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFE4C2EF84AE0A079CF3CB5 /* Classy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E2B74CF7A104406DBC3675E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24890CD12363EE7CF8FA3950 /* UIKit.framework */; };
+		4F089CFEF0B1C6BA51F5CD41 /* ISSRuntimeIntrospectionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9965C96A45F3B423ECB1DB50 /* ISSRuntimeIntrospectionUtils.m */; };
+		50069E2F619FEA4AEE851E6E /* Pods-CSSTest-Classy-Classy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6CE7E0622DDF12BE1F2FB1 /* Pods-CSSTest-Classy-Classy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		529EDE181E704E653F7F935F /* UIView+InterfaCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 947209E4ADA6E92C6F8C624C /* UIView+InterfaCSS.m */; };
+		53905675430FB6B9D808B3C3 /* NSRegularExpression+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78094897665D15E3BDCBE14A /* NSRegularExpression+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B3F3785A6229CCFB8A96B2 /* ISSLazyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 783440512EFEB66E047C5CFD /* ISSLazyValue.m */; };
+		596B3585B2D5997BE651013D /* NSString+ISSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD8C6B94E4B2DD4130FFBDB /* NSString+ISSStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5979FB4FEC0FD821EC9CA395 /* ISSViewHierarchyParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 407C214DC73CF6C5CD81319C /* ISSViewHierarchyParser.m */; };
+		59BC82AA800F893D821A7166 /* CASTextAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D86329864F243D5EA9D505 /* CASTextAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F3A78CED833F7A9AA43B62 /* Pods-CSSTest-Interfa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1997EE3D74348314F63C615 /* Pods-CSSTest-Interfa-dummy.m */; };
+		5AAB7315E7EE642F11DE8DC3 /* Parcoa+Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3F5F8D280E605CC3C1DD17 /* Parcoa+Predicates.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5C6700671380E01C555E1052 /* ParcoaResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A7941BB0679F02136AFB6D /* ParcoaResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C820AB826B99C89F9C5E691 /* NSObject+ISSLogSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB9B5C2E10C4549CAB34558 /* NSObject+ISSLogSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE1C1B812D5FCF05C16C34E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16FB024931918386238DBB1 /* QuartzCore.framework */; };
+		60B309C274D99F616B69424F /* UIBarItem+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8042EBBD55A2816BBCA231E /* UIBarItem+CASAdditions.m */; };
+		6276035D82C4DEC1FCA48DF6 /* UIViewController+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AAF4C3D6EC3737710F669C /* UIViewController+CASAdditions.m */; };
+		630838F1A79A344FF5DCD966 /* ISSPropertyRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = E88E23E5F5259D587604D143 /* ISSPropertyRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63139FD03EFBC563455D7B42 /* ParcoaParser+Combinators.h in Headers */ = {isa = PBXBuildFile; fileRef = E96B58BACC7A7E3DDCC26447 /* ParcoaParser+Combinators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6465A980A6AEB130375EFFD0 /* ISSRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B2AD53A118F052139D3728 /* ISSRootView.m */; };
+		64F4DDE6BC91723E690E315A /* NSString+Parcoa.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB5E5E359E26D450D1CED83 /* NSString+Parcoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		659C83421E58A90E6A9122BF /* Pods-CSSTest-Classy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06B81A168294C3F05346B982 /* Pods-CSSTest-Classy-dummy.m */; };
+		660626839BB5A136765B1E24 /* ParcoaResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E632E553B332CC14E8D19614 /* ParcoaResult.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66B5600F4D0EAD896DE03F2A /* ISSSelectorChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1062B1BA68086A37708C659A /* ISSSelectorChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A24C9012871C8A6E02893DC /* Parcoa+Combinators.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F6842D208AE9E25147BECA /* Parcoa+Combinators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE6086D943351F81DF54A0F /* CASUnitToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF58FA6D69A929993C47F2E /* CASUnitToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F094960A4D394656DFFEA4D /* UIView+ISSPrototypeReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 913C5D15688595D7F35F9FB1 /* UIView+ISSPrototypeReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7164CB85928A288F3B033ECE /* ParcoaPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C65A9B3851E8641DD63E60 /* ParcoaPredicate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72C5D45154538E1F891A9EEE /* UICollectionView+InterfaCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = B24861E8213D3142D0220715 /* UICollectionView+InterfaCSS.m */; };
+		73B2F398B5FF79433448EAA9 /* CASExpressionSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = F069B59319BB5AA4BC673D6B /* CASExpressionSolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7586C8C76B78AA455E9DE386 /* NSAttributedString+ISSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E20435AA8478B1F129C88B17 /* NSAttributedString+ISSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75DB14698AC74FCD4803E67F /* CASStyleProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4D4C87EA50C59C1E8453E5 /* CASStyleProperty.m */; };
+		7743ED9C378EBEA28B8BBEC9 /* CASStyleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BE694176FAB4FF6D4192B2 /* CASStyleNode.m */; };
+		785DE697D85F18460BA7039B /* CASDeviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = F17901594413CA1A492F9EDB /* CASDeviceSelector.m */; };
+		7860FC7502CAFB1926389128 /* NSDictionary+ISSDictionaryAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7B79CAC3B44E27D7F6B33A /* NSDictionary+ISSDictionaryAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		791572C996D86FBA3EF9C9AB /* CASPropertyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EE55AE6A77531C984A25A7 /* CASPropertyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79930BE775EF54BBACBD34D2 /* ISSPropertyRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEB298319BF1ABA12A14337 /* ISSPropertyRegistry.m */; };
+		7D4E607DCE67C1F683CBB3D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78A7164D0B209A523C6056 /* Foundation.framework */; };
+		7EE61E1A01257DD7D8EA571E /* UIColor+ISSColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF03C972F3C10777B2C4CE /* UIColor+ISSColorAdditions.m */; };
+		8027FF462754DA178C1461D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16FB024931918386238DBB1 /* QuartzCore.framework */; };
+		81CFD2A10F14D6E95AF3A72E /* Pods-CSSTest-Interfa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A739949FFD00EA1C7AB5DC5E /* Pods-CSSTest-Interfa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8774BB403E37431E419AD023 /* UINavigationBar+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE4BB389C82508CFFC60833 /* UINavigationBar+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881630AEFA5542C9B9A19BF2 /* Pods-CSSTest-Interfa-Parcoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7482EA44633155F98B63FB04 /* Pods-CSSTest-Interfa-Parcoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BB7CCF1DF780881DC9FD17 /* ISSLazyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E780BD5FEEAC5A7D5C8B3B3 /* ISSLazyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89FEBA360B4519ED47121682 /* ParcoaParserForward.h in Headers */ = {isa = PBXBuildFile; fileRef = 19405837FECD26BB65E78749 /* ParcoaParserForward.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E9A313512AF381AAE68CF80 /* UITabBar+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E17DFD36BD96A30962EF832 /* UITabBar+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EA97BC6EF5D37506296DD82 /* ISSUIElementDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB895195BD6523D68FF4394 /* ISSUIElementDetails.m */; };
+		8EF08A360E2138B5FB6841FF /* Pods-CSSTest-Interfa-Parcoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE600F83C39ED8A8C15045C /* Pods-CSSTest-Interfa-Parcoa-dummy.m */; };
+		8F0DE1205E9657EB23384B53 /* UIColor+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D61EEB74C3C44EDBAF0167 /* UIColor+CASAdditions.m */; };
+		8FB1982E75D2191A180E1D8D /* UICollectionView+InterfaCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 255C39220F60C97E8B0D0324 /* UICollectionView+InterfaCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9215122769F311A467E4FF56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78A7164D0B209A523C6056 /* Foundation.framework */; };
+		93B926F1DC5FA5AB239E5DF2 /* CASRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1D6F7D32FA92BEC29D85D2 /* CASRuntimeExtensions.m */; };
+		987F9641ACB8C3573CDBD11F /* CASStyleProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE5981044DC37A940CAED18 /* CASStyleProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9899B6DAFD1AD70465AF7FEB /* CASStyleSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C466A4125BC69F19785E1FD /* CASStyleSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E4BC261A13AA6AEBC3A393 /* ISSRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = 731DFE106ED4EE1D71831F17 /* ISSRootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99F53E74A8BB4F939F508148 /* CASExpressionSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 810CF7776E3F9BAA49655287 /* CASExpressionSolver.m */; };
+		9B1080F5CCE4F29C92DA1648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78A7164D0B209A523C6056 /* Foundation.framework */; };
+		9CACC2E3193D20344D831B31 /* NSString+ISSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 112DA59FE1FFA504273EA0AD /* NSString+ISSStringAdditions.m */; };
+		9E4AB2E73E52D8D7BC91F633 /* Pods-CSSTest-Classy-Classy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7670A359C27B3ED4FC7BA6 /* Pods-CSSTest-Classy-Classy-dummy.m */; };
+		9FCEFC1F6109901D354F8516 /* ISSPseudoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7F106B82761FC08A7E75C4 /* ISSPseudoClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0968AEC6A427B7C1E0713C7 /* UIView+InterfaCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = F9906D228DBA867125AD25CB /* UIView+InterfaCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09BCF1430DEB3A6CC0BB083 /* UITableView+InterfaCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAA9B7DD9636CD14EFF98F8 /* UITableView+InterfaCSS.m */; };
+		A18A0C4F8EC88192974B8B5A /* CASArgumentDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8ED348A6CFD1662921C892 /* CASArgumentDescriptor.m */; };
+		A45EDC29B53ADCD132DF7790 /* ParcoaParserForward.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DAB97C8E7C5B9648970728 /* ParcoaParserForward.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5D05B8AC87B78E6ED8D64C9 /* ParcoaParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E55C58A5C2F7BC4C3EC48268 /* ParcoaParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE53A843C208E54B1BC9344 /* Parcoa+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 2699249172CB5E1BD3DE42A7 /* Parcoa+NSDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADFE0FD955CB041C7D39C167 /* CASLexer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5481D3648F7B400ECB8BDA /* CASLexer.m */; };
+		AF81592ADA29922EFE224775 /* Pods-CSSTest-Interfa-InterfaCSS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D70E7769A6E3CA6D4094B948 /* Pods-CSSTest-Interfa-InterfaCSS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B238835FF7C540029B107150 /* UISlider+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6D0CFC78367F008B9200B6 /* UISlider+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33474D11D9B6D780A149044 /* NSString+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 67CFB6E767F182E542C619EC /* NSString+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33B31E3CBCB593924B2E8D6 /* NSRegularExpression+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0157E844B2ED1ADB372A1E /* NSRegularExpression+CASAdditions.m */; };
+		B5B3E9A43FD413C129497082 /* ISSRectValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3AC5FFCD895D136507CDFA /* ISSRectValue.m */; };
+		B732113C997FC648ABCA4D92 /* CASStyleableItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2551EB8F527E27425836AD /* CASStyleableItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8226156097ADC221F93E413 /* ParcoaExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC262C1F95D0054A3BFAC97 /* ParcoaExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B862E6B8D5C163A850904E7A /* ISSViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1424F639B93F4CB66E237E /* ISSViewBuilder.m */; };
+		B93DC2EC4D1FCEE609DFD571 /* CASStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 621E82902785F1B831920F6A /* CASStyler.m */; };
+		BAFA7102F094645E83AB8ACE /* Parcoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B74943CC9D0093919E8F4F /* Parcoa.framework */; };
+		BCAEB1177EF3ED34FAA34417 /* CASDeviceSelectorItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E3070D16EBAF295CE64946AE /* CASDeviceSelectorItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDC721D98CB4F2096C90A14 /* Parcoa+ISSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 350E7294CF3CDEBFFF34C678 /* Parcoa+ISSAdditions.m */; };
+		BD214AE8B4FF8CF0B69F81E5 /* CASDeviceOSVersionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6E7FD0D1B03BF499277BDA /* CASDeviceOSVersionItem.m */; };
+		BD24F531C665B52422AF53F8 /* CASObjectClassDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FD1D8877BF9505CE429FF0 /* CASObjectClassDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD391FF3197A05A0D83593F5 /* ISSParcoaStyleSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B992493F8AD10DF9C4FA3E5 /* ISSParcoaStyleSheetParser.m */; };
+		BD80A64233C5E812436FD8D6 /* Pods-CSSTest-Classy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B681E3B1735104F82915C29 /* Pods-CSSTest-Classy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02788958699C53A24CD727C /* ParcoaPredicate+Combinators.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C6845DA4825EA8FEC566FBA /* ParcoaPredicate+Combinators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0327141DB298F47AD327437 /* ISSRefreshableResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 474885AC4CD525AB48F45472 /* ISSRefreshableResource.m */; };
+		C14F6B053360E6CBCD464999 /* NSObject+CASSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 603236E013F98924DC1D29DB /* NSObject+CASSwizzle.m */; };
+		C2557CB05D65FD4FE6FB4E2E /* ISSDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC4A6C78FE86E4463C50BD4 /* ISSDateUtils.m */; };
+		C3B2DAFE07FF6BE0E43200D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45983816BBFA3D4DD1435A23 /* CoreGraphics.framework */; };
+		C58B8CDE2DA415D0C53BB310 /* CASStyleNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F195A7530D3E8DC92D93DDD /* CASStyleNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C7BCD1E3B1DB825210CFA8 /* UIView+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B105EC89C12E580AF78AE8 /* UIView+CASAdditions.m */; };
+		C9986AD560DF79B23AC09E84 /* CASDeviceOSVersionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 211A69FAEC992C8E1F8D25D8 /* CASDeviceOSVersionItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF08890E86E63C80655AF16 /* CASTextAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 664ED9E2E51C3A3A6EBFCE89 /* CASTextAttributes.m */; };
+		CDA1779C6A2B7EEFB7B530FF /* CASDeviceTypeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD2D85725E7209637E21688 /* CASDeviceTypeItem.m */; };
+		CE76BF6D6BEE03615A1ECFE3 /* CASInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1063BD8BE0198DF12D564EBC /* CASInvocation.m */; };
+		CF0BA4B60DC17268D90DEF8F /* ISSPseudoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D093FB6B298A1C77199378A /* ISSPseudoClass.m */; };
+		D0891F8748BB109CE4CD9B2C /* ISSViewPrototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AD98DDBA587A6EB32ED682 /* ISSViewPrototype.m */; };
+		D176B86ED0631ACF1BF81FF8 /* NSObject+CASSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = D1429071DE02C981C9827098 /* NSObject+CASSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D44822F7C359981EE6068B /* ISSRefreshableResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB81DD5D18F7A92A60E7FED /* ISSRefreshableResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D277B442ED630E8659B17552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24890CD12363EE7CF8FA3950 /* UIKit.framework */; };
+		D2CA2987595B397F321D8808 /* CASObjectClassDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 700EEE21B738DDBA67F9F511 /* CASObjectClassDescriptor.m */; };
+		D686FDDE51CBC33912A6F17A /* UIView+ISSPrototypeReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87214018FCF3C20109DDAAD7 /* UIView+ISSPrototypeReusableView.m */; };
+		D815324434F0C92DFDE03819 /* ISSUIElementDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = D8553798E928AF8C676DF06E /* ISSUIElementDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85217817FF4EA21E3F2C4B9 /* CASUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F15EDB221E43EC843235FE /* CASUtilities.m */; };
+		DB9549D897A81992DDF34C92 /* UITableView+InterfaCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = E63C39AC5B918ED6E0B9D9BC /* UITableView+InterfaCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFDB77D2AA39BB16F079E38 /* CASPropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A957506458BC07F70EEEE5B /* CASPropertyDescriptor.m */; };
+		DC744A8291B9D5A02B7F49B6 /* Pods-CSSTest-Interfa-InterfaCSS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92097ED56AFC6FEC8D127CA4 /* Pods-CSSTest-Interfa-InterfaCSS-dummy.m */; };
+		DCA6FE0360D5E394FDAE9523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F78A7164D0B209A523C6056 /* Foundation.framework */; };
+		DCB196AFA37A58914962AF88 /* CASDeviceTypeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BC81AABA00F6F22B58E4E2CA /* CASDeviceTypeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCED6DEFB11236B8AE95C8E7 /* InterfaCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 44028FAEB7DDC66E32FCB538 /* InterfaCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0808E4247B6FB1DE15DE6A /* Parcoa+Predicates.h in Headers */ = {isa = PBXBuildFile; fileRef = F455C810F2F7C3C141A72278 /* Parcoa+Predicates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE362FDB17D41B8F179FE456 /* CASUnitToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B9126652319A2E0215CAF /* CASUnitToken.m */; };
+		DE9DBE6D3860EFA159D6732D /* ISSPointValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D8071CACF3680CF924FCDF /* ISSPointValue.m */; };
+		E0975BA93949CD2F0FFA8C13 /* NSMutableArray+ISSAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F53466CB6219E24F774D952A /* NSMutableArray+ISSAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A1E1713E24E02514603C64 /* ISSParcoaStyleSheetParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA824AC3340CE292C0642F1 /* ISSParcoaStyleSheetParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D524FD46B4BEAFC5426D24 /* UIColor+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 070465665F058E6576F2EB39 /* UIColor+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C5F1935E01EE0228EC6E7C /* ISSSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8616E2E56A31F31AEB6E48BA /* ISSSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5012A20FD3F498E4729239A /* UISlider+CASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D82AD5A30D5CF4196FC64F /* UISlider+CASAdditions.m */; };
+		E5B5245CF85665883AADB174 /* CASRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6708956E7FBE24E8E6D35639 /* CASRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5DFD7C1F49EC216192BEEE9 /* ISSStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA0592EE2DFE356C3B5DE7E /* ISSStyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6F99482C3023904007D83AD /* CASStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D227360A28C0DB6D0219A5 /* CASStyler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8B30116C318CFB987638AA3 /* InterfaCSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5BD5E378229C09824BD02B /* InterfaCSS.m */; };
+		EC0B1E6C5BC80F2C95A47907 /* ParcoaExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 868A1333121351A160BDD42C /* ParcoaExpectation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEC88290087F6BEBB41C3316 /* ParcoaParser+NSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE16F1C9D5C3E39944F631E /* ParcoaParser+NSDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF7C4D774A9FD382EEC07517 /* ISSPointValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E93D4BD0625AE49CF2CF7CEF /* ISSPointValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23DD711CD74320E5F13B3D4 /* ISSRuntimeIntrospectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B20F7A49BF71070366E0BF /* ISSRuntimeIntrospectionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C20FD635CDDE007E9E18B7 /* Parcoa+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FC4FA5B6EC114FD6A0F00522 /* Parcoa+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F39E57D10718D20E94C27927 /* UIView+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A867BABB9CF4F66D18E146 /* UIView+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F438BA71532204B33AD67337 /* UITextField+CASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C2755BA9952D0631D94A45 /* UITextField+CASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F450AAE65DDF558A0D2BA3C2 /* Parcoa+Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1235D5B28361D8861C01C /* Parcoa+Numbers.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F462B61800585480ADCCFD51 /* ParcoaPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AF86C60BCAFE45A22354D44 /* ParcoaPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54473731C72AE6AC85DF441 /* NSDictionary+ISSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8883612544135FF6F1F2C65D /* NSDictionary+ISSDictionaryAdditions.m */; };
+		F598577BCDEE70743CDE383D /* CASParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BACF2CDBDD112A1919AAF04 /* CASParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9BB1F23833EF33F3E288A24 /* ParcoaPredicate+Combinators.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA131EDF76300EC3F133DF /* ParcoaPredicate+Combinators.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FDC9D98DC0919D1145AECB21 /* NSObject+ISSLogSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2138D8C776031D122B90E /* NSObject+ISSLogSupport.m */; };
+		FFE1DCD84B1E237AABA70932 /* Parcoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DA4CB4BD779C3AAB3A7B0D /* Parcoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BC5DEEE5ED5AD822A2FAE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B8F9C7D1515B047C5D9B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28D445E71EA5D5B4C0F0041;
+			remoteInfo = "Pods-CSSTest-Interfa-Parcoa";
+		};
+		48C2912BC050D9D158EB0431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B8F9C7D1515B047C5D9B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28D445E71EA5D5B4C0F0041;
+			remoteInfo = "Pods-CSSTest-Interfa-Parcoa";
+		};
+		61F1DEDF5A262E3DFD1C55A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B8F9C7D1515B047C5D9B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7D0895519BC89CDD4DA88A;
+			remoteInfo = "Pods-CSSTest-Classy-Classy";
+		};
+		95463C1820A3CF8022AD77D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5B8F9C7D1515B047C5D9B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0360CC3D4BA77DA699524C8B;
+			remoteInfo = "Pods-CSSTest-Interfa-InterfaCSS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002C6B949EFD17C53639031A /* Pods-CSSTest-Interfa-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTest-Interfa-frameworks.sh"; sourceTree = "<group>"; };
+		03E2138D8C776031D122B90E /* NSObject+ISSLogSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ISSLogSupport.m"; path = "InterfaCSS/Util/NSObject+ISSLogSupport.m"; sourceTree = "<group>"; };
+		04CA131EDF76300EC3F133DF /* ParcoaPredicate+Combinators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ParcoaPredicate+Combinators.m"; path = "Parcoa/ParcoaPredicate+Combinators.m"; sourceTree = "<group>"; };
+		0684D33B1015333C19EEAA88 /* CASParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASParser.m; path = Classy/Parser/CASParser.m; sourceTree = "<group>"; };
+		06B81A168294C3F05346B982 /* Pods-CSSTest-Classy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTest-Classy-dummy.m"; sourceTree = "<group>"; };
+		070465665F058E6576F2EB39 /* UIColor+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CASAdditions.h"; path = "Classy/Additions/UIColor+CASAdditions.h"; sourceTree = "<group>"; };
+		08AD98DDBA587A6EB32ED682 /* ISSViewPrototype.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSViewPrototype.m; path = InterfaCSS/Model/ISSViewPrototype.m; sourceTree = "<group>"; };
+		08D8071CACF3680CF924FCDF /* ISSPointValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSPointValue.m; path = InterfaCSS/Model/ISSPointValue.m; sourceTree = "<group>"; };
+		09C6955A1B8390BF0C5C4338 /* Pods-CSSTest-Classy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CSSTest-Classy.modulemap"; sourceTree = "<group>"; };
+		0AE2D4039CDE351484FDE65D /* CASInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASInvocation.h; path = Classy/Parser/CASInvocation.h; sourceTree = "<group>"; };
+		0B5BD5E378229C09824BD02B /* InterfaCSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InterfaCSS.m; path = InterfaCSS/InterfaCSS.m; sourceTree = "<group>"; };
+		0D093FB6B298A1C77199378A /* ISSPseudoClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSPseudoClass.m; path = InterfaCSS/Model/ISSPseudoClass.m; sourceTree = "<group>"; };
+		0F00C73C042F8DAB6797D378 /* ISSPropertyDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSPropertyDefinition.m; path = InterfaCSS/Model/ISSPropertyDefinition.m; sourceTree = "<group>"; };
+		1062B1BA68086A37708C659A /* ISSSelectorChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSSelectorChain.h; path = InterfaCSS/Model/ISSSelectorChain.h; sourceTree = "<group>"; };
+		1063BD8BE0198DF12D564EBC /* CASInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASInvocation.m; path = Classy/Parser/CASInvocation.m; sourceTree = "<group>"; };
+		10C652390E9AC618608344D0 /* Pods-CSSTest-Classy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTest-Classy-frameworks.sh"; sourceTree = "<group>"; };
+		112DA59FE1FFA504273EA0AD /* NSString+ISSStringAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ISSStringAdditions.m"; path = "InterfaCSS/Util/NSString+ISSStringAdditions.m"; sourceTree = "<group>"; };
+		11A7941BB0679F02136AFB6D /* ParcoaResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParcoaResult.h; path = Parcoa/ParcoaResult.h; sourceTree = "<group>"; };
+		1660BD6D5D0F7DAAFE21220C /* Parcoa+Primitives.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+Primitives.m"; path = "Parcoa/Parcoa+Primitives.m"; sourceTree = "<group>"; };
+		16B105EC89C12E580AF78AE8 /* UIView+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CASAdditions.m"; path = "Classy/Additions/UIView+CASAdditions.m"; sourceTree = "<group>"; };
+		16EE55AE6A77531C984A25A7 /* CASPropertyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASPropertyDescriptor.h; path = Classy/Reflection/CASPropertyDescriptor.h; sourceTree = "<group>"; };
+		182D1F562751F9116E794DAB /* Pods-CSSTest-Classy-Classy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Classy-Classy.xcconfig"; sourceTree = "<group>"; };
+		19405837FECD26BB65E78749 /* ParcoaParserForward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParcoaParserForward.h; path = Parcoa/ParcoaParserForward.h; sourceTree = "<group>"; };
+		1A6D0CFC78367F008B9200B6 /* UISlider+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+CASAdditions.h"; path = "Classy/Additions/UISlider+CASAdditions.h"; sourceTree = "<group>"; };
+		1BA0592EE2DFE356C3B5DE7E /* ISSStyleSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSStyleSheet.h; path = InterfaCSS/Model/ISSStyleSheet.h; sourceTree = "<group>"; };
+		1CE16F1C9D5C3E39944F631E /* ParcoaParser+NSDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ParcoaParser+NSDictionary.m"; path = "Parcoa/ParcoaParser+NSDictionary.m"; sourceTree = "<group>"; };
+		1DFACF5DFEB9F39362FDD5BF /* Pods-CSSTest-Classy-Classy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CSSTest-Classy-Classy.modulemap"; sourceTree = "<group>"; };
+		1E7B79CAC3B44E27D7F6B33A /* NSDictionary+ISSDictionaryAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ISSDictionaryAdditions.h"; path = "InterfaCSS/Util/NSDictionary+ISSDictionaryAdditions.h"; sourceTree = "<group>"; };
+		1FF611C924C96B69E8D12DA4 /* ISSPropertyDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSPropertyDefinition.h; path = InterfaCSS/Model/ISSPropertyDefinition.h; sourceTree = "<group>"; };
+		211A69FAEC992C8E1F8D25D8 /* CASDeviceOSVersionItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASDeviceOSVersionItem.h; path = Classy/Parser/CASDeviceOSVersionItem.h; sourceTree = "<group>"; };
+		222E1A4FEDCFA47935FAD147 /* Pods-CSSTest-Interfa-Parcoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Interfa-Parcoa-prefix.pch"; sourceTree = "<group>"; };
+		2484E8A799F041F42F68F382 /* Classy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Classy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24890CD12363EE7CF8FA3950 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		255C39220F60C97E8B0D0324 /* UICollectionView+InterfaCSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+InterfaCSS.h"; path = "InterfaCSS/UI/UICollectionView+InterfaCSS.h"; sourceTree = "<group>"; };
+		2657B3F42BDA25FF4D91F8C9 /* ISSViewPrototype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSViewPrototype.h; path = InterfaCSS/Model/ISSViewPrototype.h; sourceTree = "<group>"; };
+		2699249172CB5E1BD3DE42A7 /* Parcoa+NSDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+NSDictionary.m"; path = "Parcoa/Parcoa+NSDictionary.m"; sourceTree = "<group>"; };
+		273289BAD498025D6A56D3E9 /* ISSPropertyDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSPropertyDeclaration.h; path = InterfaCSS/Model/ISSPropertyDeclaration.h; sourceTree = "<group>"; };
+		29C2755BA9952D0631D94A45 /* UITextField+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+CASAdditions.h"; path = "Classy/Additions/UITextField+CASAdditions.h"; sourceTree = "<group>"; };
+		29FDD6CD5270B483C749DCA9 /* Pods-CSSTest-Classy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSTest-Classy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A45C629738C059F9BDF7D6D /* Parcoa+Primitives.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+Primitives.h"; path = "Parcoa/Parcoa+Primitives.h"; sourceTree = "<group>"; };
+		2A6CE7E0622DDF12BE1F2FB1 /* Pods-CSSTest-Classy-Classy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Classy-Classy-umbrella.h"; sourceTree = "<group>"; };
+		2CA824AC3340CE292C0642F1 /* ISSParcoaStyleSheetParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSParcoaStyleSheetParser.h; path = InterfaCSS/Parser/ISSParcoaStyleSheetParser.h; sourceTree = "<group>"; };
+		3050EBAF7F60B33E76ED4492 /* ISSPropertyDeclarations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSPropertyDeclarations.m; path = InterfaCSS/Model/ISSPropertyDeclarations.m; sourceTree = "<group>"; };
+		34DA4CB4BD779C3AAB3A7B0D /* Parcoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Parcoa.h; path = Parcoa/Parcoa.h; sourceTree = "<group>"; };
+		350E7294CF3CDEBFFF34C678 /* Parcoa+ISSAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+ISSAdditions.m"; path = "InterfaCSS/Parser/Parcoa+ISSAdditions.m"; sourceTree = "<group>"; };
+		3A40CC97CE82CEAF365FDCE7 /* Parcoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parcoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB895195BD6523D68FF4394 /* ISSUIElementDetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSUIElementDetails.m; path = InterfaCSS/Model/ISSUIElementDetails.m; sourceTree = "<group>"; };
+		3BC1235D5B28361D8861C01C /* Parcoa+Numbers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+Numbers.m"; path = "Parcoa/Parcoa+Numbers.m"; sourceTree = "<group>"; };
+		3C6845DA4825EA8FEC566FBA /* ParcoaPredicate+Combinators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ParcoaPredicate+Combinators.h"; path = "Parcoa/ParcoaPredicate+Combinators.h"; sourceTree = "<group>"; };
+		3D455001D9B1F067C721BFEB /* Pods-CSSTest-Interfa-InterfaCSS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CSSTest-Interfa-InterfaCSS.modulemap"; sourceTree = "<group>"; };
+		3DE5981044DC37A940CAED18 /* CASStyleProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASStyleProperty.h; path = Classy/Parser/CASStyleProperty.h; sourceTree = "<group>"; };
+		3E17DFD36BD96A30962EF832 /* UITabBar+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CASAdditions.h"; path = "Classy/Additions/UITabBar+CASAdditions.h"; sourceTree = "<group>"; };
+		4077847539015EE110F1C519 /* ISSViewBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSViewBuilder.h; path = InterfaCSS/UI/ISSViewBuilder.h; sourceTree = "<group>"; };
+		407C214DC73CF6C5CD81319C /* ISSViewHierarchyParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSViewHierarchyParser.m; path = InterfaCSS/Parser/ISSViewHierarchyParser.m; sourceTree = "<group>"; };
+		41657F8685E943707AA616A3 /* UIViewController+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CASAdditions.h"; path = "Classy/Additions/UIViewController+CASAdditions.h"; sourceTree = "<group>"; };
+		44028FAEB7DDC66E32FCB538 /* InterfaCSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InterfaCSS.h; path = InterfaCSS/InterfaCSS.h; sourceTree = "<group>"; };
+		45983816BBFA3D4DD1435A23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		474602D9432745987C1BB54A /* Pods-CSSTest-Interfa-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSTest-Interfa-acknowledgements.markdown"; sourceTree = "<group>"; };
+		474885AC4CD525AB48F45472 /* ISSRefreshableResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSRefreshableResource.m; path = InterfaCSS/Util/ISSRefreshableResource.m; sourceTree = "<group>"; };
+		48098DBDBA09A16E64C6D064 /* Pods-CSSTest-Classy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSTest-Classy-acknowledgements.plist"; sourceTree = "<group>"; };
+		49DB0F28E16C953CEBF435FD /* ParcoaParser+Combinators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ParcoaParser+Combinators.m"; path = "Parcoa/ParcoaParser+Combinators.m"; sourceTree = "<group>"; };
+		4B6B9126652319A2E0215CAF /* CASUnitToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASUnitToken.m; path = Classy/Parser/CASUnitToken.m; sourceTree = "<group>"; };
+		4DB81DD5D18F7A92A60E7FED /* ISSRefreshableResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSRefreshableResource.h; path = InterfaCSS/Util/ISSRefreshableResource.h; sourceTree = "<group>"; };
+		4F2551EB8F527E27425836AD /* CASStyleableItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASStyleableItem.h; path = Classy/Additions/CASStyleableItem.h; sourceTree = "<group>"; };
+		4F76144C81FE3CA2B2C76C6E /* Parcoa+NSDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+NSDictionary.h"; path = "Parcoa/Parcoa+NSDictionary.h"; sourceTree = "<group>"; };
+		4F78A7164D0B209A523C6056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		53466220A437886E7B7904CB /* ParcoaParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParcoaParser.m; path = Parcoa/ParcoaParser.m; sourceTree = "<group>"; };
+		536A82DA996F33E32EE53CEC /* Pods-CSSTest-Classy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Classy.release.xcconfig"; sourceTree = "<group>"; };
+		551A6B770CAA9F1E9609112A /* CASLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASLexer.h; path = Classy/Parser/CASLexer.h; sourceTree = "<group>"; };
+		5724D869C8A6C2BB71EC6594 /* Pods-CSSTest-Classy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Classy.debug.xcconfig"; sourceTree = "<group>"; };
+		585F8679916816DD0A4EED94 /* UITabBar+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CASAdditions.m"; path = "Classy/Additions/UITabBar+CASAdditions.m"; sourceTree = "<group>"; };
+		58DDED0E9603601F518A3265 /* NSString+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CASAdditions.m"; path = "Classy/Additions/NSString+CASAdditions.m"; sourceTree = "<group>"; };
+		5C545FF9519F367D32430141 /* ISSDateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSDateUtils.h; path = InterfaCSS/Util/ISSDateUtils.h; sourceTree = "<group>"; };
+		5CD8C6B94E4B2DD4130FFBDB /* NSString+ISSStringAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ISSStringAdditions.h"; path = "InterfaCSS/Util/NSString+ISSStringAdditions.h"; sourceTree = "<group>"; };
+		5EF58FA6D69A929993C47F2E /* CASUnitToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASUnitToken.h; path = Classy/Parser/CASUnitToken.h; sourceTree = "<group>"; };
+		5FAABE22336F3D67B1D792FC /* Pods-CSSTest-Classy-Classy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Classy-Classy-prefix.pch"; sourceTree = "<group>"; };
+		603236E013F98924DC1D29DB /* NSObject+CASSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CASSwizzle.m"; path = "Classy/Additions/NSObject+CASSwizzle.m"; sourceTree = "<group>"; };
+		621E82902785F1B831920F6A /* CASStyler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASStyler.m; path = Classy/Parser/CASStyler.m; sourceTree = "<group>"; };
+		63B2AD53A118F052139D3728 /* ISSRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSRootView.m; path = InterfaCSS/UI/ISSRootView.m; sourceTree = "<group>"; };
+		650AA863FDA8E1BE63CB1DE5 /* NSMutableArray+ISSAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+ISSAdditions.m"; path = "InterfaCSS/Util/NSMutableArray+ISSAdditions.m"; sourceTree = "<group>"; };
+		664ED9E2E51C3A3A6EBFCE89 /* CASTextAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASTextAttributes.m; path = Classy/Parser/CASTextAttributes.m; sourceTree = "<group>"; };
+		66B20F7A49BF71070366E0BF /* ISSRuntimeIntrospectionUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSRuntimeIntrospectionUtils.h; path = InterfaCSS/Util/ISSRuntimeIntrospectionUtils.h; sourceTree = "<group>"; };
+		66D227360A28C0DB6D0219A5 /* CASStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASStyler.h; path = Classy/Parser/CASStyler.h; sourceTree = "<group>"; };
+		6708956E7FBE24E8E6D35639 /* CASRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASRuntimeExtensions.h; path = Classy/Reflection/CASRuntimeExtensions.h; sourceTree = "<group>"; };
+		67C65A9B3851E8641DD63E60 /* ParcoaPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParcoaPredicate.m; path = Parcoa/ParcoaPredicate.m; sourceTree = "<group>"; };
+		67CFB6E767F182E542C619EC /* NSString+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CASAdditions.h"; path = "Classy/Additions/NSString+CASAdditions.h"; sourceTree = "<group>"; };
+		67DAB97C8E7C5B9648970728 /* ParcoaParserForward.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParcoaParserForward.m; path = Parcoa/ParcoaParserForward.m; sourceTree = "<group>"; };
+		67F6842D208AE9E25147BECA /* Parcoa+Combinators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+Combinators.h"; path = "Parcoa/Parcoa+Combinators.h"; sourceTree = "<group>"; };
+		6A957506458BC07F70EEEE5B /* CASPropertyDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASPropertyDescriptor.m; path = Classy/Reflection/CASPropertyDescriptor.m; sourceTree = "<group>"; };
+		6B5E279B208E372A83ADE9E7 /* ISSSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSSelector.m; path = InterfaCSS/Model/ISSSelector.m; sourceTree = "<group>"; };
+		6B992493F8AD10DF9C4FA3E5 /* ISSParcoaStyleSheetParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSParcoaStyleSheetParser.m; path = InterfaCSS/Parser/ISSParcoaStyleSheetParser.m; sourceTree = "<group>"; };
+		6BACF2CDBDD112A1919AAF04 /* CASParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASParser.h; path = Classy/Parser/CASParser.h; sourceTree = "<group>"; };
+		6DC262C1F95D0054A3BFAC97 /* ParcoaExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParcoaExpectation.h; path = Parcoa/ParcoaExpectation.h; sourceTree = "<group>"; };
+		6DE4BB389C82508CFFC60833 /* UINavigationBar+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+CASAdditions.h"; path = "Classy/Additions/UINavigationBar+CASAdditions.h"; sourceTree = "<group>"; };
+		6F195A7530D3E8DC92D93DDD /* CASStyleNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASStyleNode.h; path = Classy/Parser/CASStyleNode.h; sourceTree = "<group>"; };
+		6FD2D85725E7209637E21688 /* CASDeviceTypeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASDeviceTypeItem.m; path = Classy/Parser/CASDeviceTypeItem.m; sourceTree = "<group>"; };
+		700EEE21B738DDBA67F9F511 /* CASObjectClassDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASObjectClassDescriptor.m; path = Classy/Reflection/CASObjectClassDescriptor.m; sourceTree = "<group>"; };
+		704E216443024EA520160FF1 /* Pods-CSSTest-Interfa-InterfaCSS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Interfa-InterfaCSS-prefix.pch"; sourceTree = "<group>"; };
+		717A014778718904A388BC8A /* ParcoaParser+NSDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ParcoaParser+NSDictionary.h"; path = "Parcoa/ParcoaParser+NSDictionary.h"; sourceTree = "<group>"; };
+		731DFE106ED4EE1D71831F17 /* ISSRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSRootView.h; path = InterfaCSS/UI/ISSRootView.h; sourceTree = "<group>"; };
+		741CCDFD6DC3B627F9BEF779 /* CASDeviceSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASDeviceSelector.h; path = Classy/Parser/CASDeviceSelector.h; sourceTree = "<group>"; };
+		7482EA44633155F98B63FB04 /* Pods-CSSTest-Interfa-Parcoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Interfa-Parcoa-umbrella.h"; sourceTree = "<group>"; };
+		758481D7038F0D20FEDDD8FD /* Pods-CSSTest-Interfa-Parcoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Interfa-Parcoa.xcconfig"; sourceTree = "<group>"; };
+		766C4A3DC0164A2B63BAA29C /* UINavigationBar+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+CASAdditions.m"; path = "Classy/Additions/UINavigationBar+CASAdditions.m"; sourceTree = "<group>"; };
+		78094897665D15E3BDCBE14A /* NSRegularExpression+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRegularExpression+CASAdditions.h"; path = "Classy/Additions/NSRegularExpression+CASAdditions.h"; sourceTree = "<group>"; };
+		783440512EFEB66E047C5CFD /* ISSLazyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSLazyValue.m; path = InterfaCSS/Model/ISSLazyValue.m; sourceTree = "<group>"; };
+		7871A3888A78ACD1527F1F29 /* CASArgumentDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASArgumentDescriptor.h; path = Classy/Reflection/CASArgumentDescriptor.h; sourceTree = "<group>"; };
+		78AE979982519B4F62C6EAF3 /* Parcoa+Combinators.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+Combinators.m"; path = "Parcoa/Parcoa+Combinators.m"; sourceTree = "<group>"; };
+		7AF86C60BCAFE45A22354D44 /* ParcoaPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParcoaPredicate.h; path = Parcoa/ParcoaPredicate.h; sourceTree = "<group>"; };
+		7D8E2249E6B2B8CFA462FEDE /* ISSSelectorChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSSelectorChain.m; path = InterfaCSS/Model/ISSSelectorChain.m; sourceTree = "<group>"; };
+		7DD7F0451F5213A0DBA3025D /* Pods_CSSTest_Classy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSTest_Classy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6E7FD0D1B03BF499277BDA /* CASDeviceOSVersionItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASDeviceOSVersionItem.m; path = Classy/Parser/CASDeviceOSVersionItem.m; sourceTree = "<group>"; };
+		7FC0AFF18B1F5CDCC605DF20 /* Pods-CSSTest-Interfa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Interfa.debug.xcconfig"; sourceTree = "<group>"; };
+		810CF7776E3F9BAA49655287 /* CASExpressionSolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASExpressionSolver.m; path = Classy/Parser/CASExpressionSolver.m; sourceTree = "<group>"; };
+		812981E7076F792BC7BB4CCC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F15EDB221E43EC843235FE /* CASUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASUtilities.m; path = Classy/Parser/CASUtilities.m; sourceTree = "<group>"; };
+		82ADDB7CE39454B9E1963A6F /* CASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASUtilities.h; path = Classy/Parser/CASUtilities.h; sourceTree = "<group>"; };
+		82E8AEFBB94BC8D5EC0FBD18 /* UIToolbar+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+CASAdditions.h"; path = "Classy/Additions/UIToolbar+CASAdditions.h"; sourceTree = "<group>"; };
+		8616E2E56A31F31AEB6E48BA /* ISSSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSSelector.h; path = InterfaCSS/Model/ISSSelector.h; sourceTree = "<group>"; };
+		868A1333121351A160BDD42C /* ParcoaExpectation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParcoaExpectation.m; path = Parcoa/ParcoaExpectation.m; sourceTree = "<group>"; };
+		87214018FCF3C20109DDAAD7 /* UIView+ISSPrototypeReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ISSPrototypeReusableView.m"; path = "InterfaCSS/UI/UIView+ISSPrototypeReusableView.m"; sourceTree = "<group>"; };
+		8883612544135FF6F1F2C65D /* NSDictionary+ISSDictionaryAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ISSDictionaryAdditions.m"; path = "InterfaCSS/Util/NSDictionary+ISSDictionaryAdditions.m"; sourceTree = "<group>"; };
+		8885AD6AFD5411D38D43DA85 /* Pods-CSSTest-Interfa-Parcoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CSSTest-Interfa-Parcoa.modulemap"; sourceTree = "<group>"; };
+		88D81CDE34A08AFAC613F855 /* Parcoa+Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+Internal.m"; path = "Parcoa/Parcoa+Internal.m"; sourceTree = "<group>"; };
+		89BE694176FAB4FF6D4192B2 /* CASStyleNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASStyleNode.m; path = Classy/Parser/CASStyleNode.m; sourceTree = "<group>"; };
+		8B681E3B1735104F82915C29 /* Pods-CSSTest-Classy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Classy-umbrella.h"; sourceTree = "<group>"; };
+		8CCC0258CEEC105BFF8A37FA /* ISSStyleSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSStyleSheet.m; path = InterfaCSS/Model/ISSStyleSheet.m; sourceTree = "<group>"; };
+		8DFE4C2EF84AE0A079CF3CB5 /* Classy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Classy.h; path = Classy/Classy.h; sourceTree = "<group>"; };
+		8E643D38A64C80D0FD183836 /* UITextField+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+CASAdditions.m"; path = "Classy/Additions/UITextField+CASAdditions.m"; sourceTree = "<group>"; };
+		8E780BD5FEEAC5A7D5C8B3B3 /* ISSLazyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSLazyValue.h; path = InterfaCSS/Model/ISSLazyValue.h; sourceTree = "<group>"; };
+		9016831CAB424A77F94051D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913C5D15688595D7F35F9FB1 /* UIView+ISSPrototypeReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ISSPrototypeReusableView.h"; path = "InterfaCSS/UI/UIView+ISSPrototypeReusableView.h"; sourceTree = "<group>"; };
+		91EF03C972F3C10777B2C4CE /* UIColor+ISSColorAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ISSColorAdditions.m"; path = "InterfaCSS/Util/UIColor+ISSColorAdditions.m"; sourceTree = "<group>"; };
+		92097ED56AFC6FEC8D127CA4 /* Pods-CSSTest-Interfa-InterfaCSS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTest-Interfa-InterfaCSS-dummy.m"; sourceTree = "<group>"; };
+		931641D945A04117F0BBD8B7 /* CASStyleSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASStyleSelector.m; path = Classy/Parser/CASStyleSelector.m; sourceTree = "<group>"; };
+		947209E4ADA6E92C6F8C624C /* UIView+InterfaCSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+InterfaCSS.m"; path = "InterfaCSS/UI/UIView+InterfaCSS.m"; sourceTree = "<group>"; };
+		957323F214CD5403B9F60D6D /* Pods-CSSTest-Interfa-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTest-Interfa-resources.sh"; sourceTree = "<group>"; };
+		96A7A2C5F7685C53BBD0D039 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A867BABB9CF4F66D18E146 /* UIView+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CASAdditions.h"; path = "Classy/Additions/UIView+CASAdditions.h"; sourceTree = "<group>"; };
+		989A7FB9385D7C79A5EED095 /* Pods-CSSTest-Classy-Classy-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Classy-Classy-Private.xcconfig"; sourceTree = "<group>"; };
+		9965C96A45F3B423ECB1DB50 /* ISSRuntimeIntrospectionUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSRuntimeIntrospectionUtils.m; path = InterfaCSS/Util/ISSRuntimeIntrospectionUtils.m; sourceTree = "<group>"; };
+		9C1CC20AEA10CC1A25368A96 /* UIColor+ISSColorAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ISSColorAdditions.h"; path = "InterfaCSS/Util/UIColor+ISSColorAdditions.h"; sourceTree = "<group>"; };
+		9C466A4125BC69F19785E1FD /* CASStyleSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASStyleSelector.h; path = Classy/Parser/CASStyleSelector.h; sourceTree = "<group>"; };
+		9C8E974B9935007F8674A4BB /* UIBarItem+CASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+CASAdditions.h"; path = "Classy/Additions/UIBarItem+CASAdditions.h"; sourceTree = "<group>"; };
+		9D7F106B82761FC08A7E75C4 /* ISSPseudoClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSPseudoClass.h; path = InterfaCSS/Model/ISSPseudoClass.h; sourceTree = "<group>"; };
+		A1C5814D9057F46CCFD3BAFD /* Pods-CSSTest-Interfa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Interfa.release.xcconfig"; sourceTree = "<group>"; };
+		A298B2011980B23767F0D7C0 /* Pods-CSSTest-Interfa-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSTest-Interfa-acknowledgements.plist"; sourceTree = "<group>"; };
+		A739949FFD00EA1C7AB5DC5E /* Pods-CSSTest-Interfa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Interfa-umbrella.h"; sourceTree = "<group>"; };
+		A9B5D9581593BF511AF5BB9D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		AA7E78B4204C63A0E8AE9601 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB9B5C2E10C4549CAB34558 /* NSObject+ISSLogSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ISSLogSupport.h"; path = "InterfaCSS/Util/NSObject+ISSLogSupport.h"; sourceTree = "<group>"; };
+		AAE600F83C39ED8A8C15045C /* Pods-CSSTest-Interfa-Parcoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTest-Interfa-Parcoa-dummy.m"; sourceTree = "<group>"; };
+		AC8A865FA662A26C21173734 /* Pods-CSSTest-Interfa-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Interfa-environment.h"; sourceTree = "<group>"; };
+		AD3AC5FFCD895D136507CDFA /* ISSRectValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSRectValue.m; path = InterfaCSS/Model/ISSRectValue.m; sourceTree = "<group>"; };
+		AD42527C2DEE27A7D9E6D7DF /* Parcoa+Numbers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+Numbers.h"; path = "Parcoa/Parcoa+Numbers.h"; sourceTree = "<group>"; };
+		B1D82AD5A30D5CF4196FC64F /* UISlider+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+CASAdditions.m"; path = "Classy/Additions/UISlider+CASAdditions.m"; sourceTree = "<group>"; };
+		B24861E8213D3142D0220715 /* UICollectionView+InterfaCSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+InterfaCSS.m"; path = "InterfaCSS/UI/UICollectionView+InterfaCSS.m"; sourceTree = "<group>"; };
+		B532274E04607F6674D2E5DC /* Parcoa+ISSAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+ISSAdditions.h"; path = "InterfaCSS/Parser/Parcoa+ISSAdditions.h"; sourceTree = "<group>"; };
+		BC81AABA00F6F22B58E4E2CA /* CASDeviceTypeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASDeviceTypeItem.h; path = Classy/Parser/CASDeviceTypeItem.h; sourceTree = "<group>"; };
+		BE59E4D01DC2E200E9B2D517 /* Pods-CSSTest-Interfa-InterfaCSS-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Interfa-InterfaCSS-Private.xcconfig"; sourceTree = "<group>"; };
+		BEE85C02750102CD1FECD871 /* InterfaCSS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InterfaCSS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB32FDAC4C38A3F910875BD /* CASToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASToken.m; path = Classy/Parser/CASToken.m; sourceTree = "<group>"; };
+		C17EF8B79ADA6B37167266CA /* NSAttributedString+ISSAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+ISSAdditions.m"; path = "InterfaCSS/Util/NSAttributedString+ISSAdditions.m"; sourceTree = "<group>"; };
+		C254BCCFA013F3873F4B33D0 /* Pods-CSSTest-Classy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTest-Classy-resources.sh"; sourceTree = "<group>"; };
+		C366D2100C207EAFCB7663EE /* Pods-CSSTest-Interfa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CSSTest-Interfa.modulemap"; sourceTree = "<group>"; };
+		C36C7A2A3A7703881D3B0B2A /* ISSStyleSheetParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSStyleSheetParser.h; path = InterfaCSS/Parser/ISSStyleSheetParser.h; sourceTree = "<group>"; };
+		C5F5CD2BD5ACA7FDB4650312 /* ISSPropertyDeclaration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSPropertyDeclaration.m; path = InterfaCSS/Model/ISSPropertyDeclaration.m; sourceTree = "<group>"; };
+		C7AAF4C3D6EC3737710F669C /* UIViewController+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CASAdditions.m"; path = "Classy/Additions/UIViewController+CASAdditions.m"; sourceTree = "<group>"; };
+		C7B74943CC9D0093919E8F4F /* Parcoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Parcoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4D4C87EA50C59C1E8453E5 /* CASStyleProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASStyleProperty.m; path = Classy/Parser/CASStyleProperty.m; sourceTree = "<group>"; };
+		CF5481D3648F7B400ECB8BDA /* CASLexer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASLexer.m; path = Classy/Parser/CASLexer.m; sourceTree = "<group>"; };
+		CFEB298319BF1ABA12A14337 /* ISSPropertyRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSPropertyRegistry.m; path = InterfaCSS/Model/ISSPropertyRegistry.m; sourceTree = "<group>"; };
+		D1429071DE02C981C9827098 /* NSObject+CASSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CASSwizzle.h"; path = "Classy/Additions/NSObject+CASSwizzle.h"; sourceTree = "<group>"; };
+		D2FD1D8877BF9505CE429FF0 /* CASObjectClassDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASObjectClassDescriptor.h; path = Classy/Reflection/CASObjectClassDescriptor.h; sourceTree = "<group>"; };
+		D70E7769A6E3CA6D4094B948 /* Pods-CSSTest-Interfa-InterfaCSS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Interfa-InterfaCSS-umbrella.h"; sourceTree = "<group>"; };
+		D8553798E928AF8C676DF06E /* ISSUIElementDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSUIElementDetails.h; path = InterfaCSS/Model/ISSUIElementDetails.h; sourceTree = "<group>"; };
+		DAAA9B7DD9636CD14EFF98F8 /* UITableView+InterfaCSS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+InterfaCSS.m"; path = "InterfaCSS/UI/UITableView+InterfaCSS.m"; sourceTree = "<group>"; };
+		DB1D6F7D32FA92BEC29D85D2 /* CASRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASRuntimeExtensions.m; path = Classy/Reflection/CASRuntimeExtensions.m; sourceTree = "<group>"; };
+		DDA89A4336A92FDDBBC6CD26 /* CASToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASToken.h; path = Classy/Parser/CASToken.h; sourceTree = "<group>"; };
+		DF7670A359C27B3ED4FC7BA6 /* Pods-CSSTest-Classy-Classy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTest-Classy-Classy-dummy.m"; sourceTree = "<group>"; };
+		E16FB024931918386238DBB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E1997EE3D74348314F63C615 /* Pods-CSSTest-Interfa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTest-Interfa-dummy.m"; sourceTree = "<group>"; };
+		E20435AA8478B1F129C88B17 /* NSAttributedString+ISSAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+ISSAdditions.h"; path = "InterfaCSS/Util/NSAttributedString+ISSAdditions.h"; sourceTree = "<group>"; };
+		E3070D16EBAF295CE64946AE /* CASDeviceSelectorItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASDeviceSelectorItem.h; path = Classy/Parser/CASDeviceSelectorItem.h; sourceTree = "<group>"; };
+		E3EDF08D03CAFB035C948B1C /* NSString+Parcoa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Parcoa.m"; path = "Parcoa/NSString+Parcoa.m"; sourceTree = "<group>"; };
+		E463B875729AFC37BEB63DC6 /* Pods-CSSTest-Classy-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTest-Classy-environment.h"; sourceTree = "<group>"; };
+		E4C3FCB4A269FC518F399A39 /* ISSViewHierarchyParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSViewHierarchyParser.h; path = InterfaCSS/Parser/ISSViewHierarchyParser.h; sourceTree = "<group>"; };
+		E55C58A5C2F7BC4C3EC48268 /* ParcoaParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ParcoaParser.h; path = Parcoa/ParcoaParser.h; sourceTree = "<group>"; };
+		E632E553B332CC14E8D19614 /* ParcoaResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ParcoaResult.m; path = Parcoa/ParcoaResult.m; sourceTree = "<group>"; };
+		E63C39AC5B918ED6E0B9D9BC /* UITableView+InterfaCSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+InterfaCSS.h"; path = "InterfaCSS/UI/UITableView+InterfaCSS.h"; sourceTree = "<group>"; };
+		E686E4811B7273CC9A5A6498 /* ISSRectValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSRectValue.h; path = InterfaCSS/Model/ISSRectValue.h; sourceTree = "<group>"; };
+		E8042EBBD55A2816BBCA231E /* UIBarItem+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarItem+CASAdditions.m"; path = "Classy/Additions/UIBarItem+CASAdditions.m"; sourceTree = "<group>"; };
+		E88E23E5F5259D587604D143 /* ISSPropertyRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSPropertyRegistry.h; path = InterfaCSS/Model/ISSPropertyRegistry.h; sourceTree = "<group>"; };
+		E8D61EEB74C3C44EDBAF0167 /* UIColor+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CASAdditions.m"; path = "Classy/Additions/UIColor+CASAdditions.m"; sourceTree = "<group>"; };
+		E8D86329864F243D5EA9D505 /* CASTextAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASTextAttributes.h; path = Classy/Parser/CASTextAttributes.h; sourceTree = "<group>"; };
+		E93D4BD0625AE49CF2CF7CEF /* ISSPointValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSPointValue.h; path = InterfaCSS/Model/ISSPointValue.h; sourceTree = "<group>"; };
+		E96B58BACC7A7E3DDCC26447 /* ParcoaParser+Combinators.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ParcoaParser+Combinators.h"; path = "Parcoa/ParcoaParser+Combinators.h"; sourceTree = "<group>"; };
+		EAB5E5E359E26D450D1CED83 /* NSString+Parcoa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Parcoa.h"; path = "Parcoa/NSString+Parcoa.h"; sourceTree = "<group>"; };
+		EEC4A6C78FE86E4463C50BD4 /* ISSDateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSDateUtils.m; path = InterfaCSS/Util/ISSDateUtils.m; sourceTree = "<group>"; };
+		F069B59319BB5AA4BC673D6B /* CASExpressionSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CASExpressionSolver.h; path = Classy/Parser/CASExpressionSolver.h; sourceTree = "<group>"; };
+		F17901594413CA1A492F9EDB /* CASDeviceSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASDeviceSelector.m; path = Classy/Parser/CASDeviceSelector.m; sourceTree = "<group>"; };
+		F23F3C609F1CF8B89E9626B5 /* Pods-CSSTest-Interfa-Parcoa-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Interfa-Parcoa-Private.xcconfig"; sourceTree = "<group>"; };
+		F2534252859DC2EE44D3DFDA /* Pods-CSSTest-Interfa-InterfaCSS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTest-Interfa-InterfaCSS.xcconfig"; sourceTree = "<group>"; };
+		F2EE9F55EA58DEE96F1884F0 /* UIToolbar+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+CASAdditions.m"; path = "Classy/Additions/UIToolbar+CASAdditions.m"; sourceTree = "<group>"; };
+		F455C810F2F7C3C141A72278 /* Parcoa+Predicates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+Predicates.h"; path = "Parcoa/Parcoa+Predicates.h"; sourceTree = "<group>"; };
+		F53466CB6219E24F774D952A /* NSMutableArray+ISSAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+ISSAdditions.h"; path = "InterfaCSS/Util/NSMutableArray+ISSAdditions.h"; sourceTree = "<group>"; };
+		F781651252653A4E8E0D3638 /* ISSPropertyDeclarations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISSPropertyDeclarations.h; path = InterfaCSS/Model/ISSPropertyDeclarations.h; sourceTree = "<group>"; };
+		F9906D228DBA867125AD25CB /* UIView+InterfaCSS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+InterfaCSS.h"; path = "InterfaCSS/UI/UIView+InterfaCSS.h"; sourceTree = "<group>"; };
+		F9F54180AE588910F0748364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3F5F8D280E605CC3C1DD17 /* Parcoa+Predicates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Parcoa+Predicates.m"; path = "Parcoa/Parcoa+Predicates.m"; sourceTree = "<group>"; };
+		FB0157E844B2ED1ADB372A1E /* NSRegularExpression+CASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRegularExpression+CASAdditions.m"; path = "Classy/Additions/NSRegularExpression+CASAdditions.m"; sourceTree = "<group>"; };
+		FC4FA5B6EC114FD6A0F00522 /* Parcoa+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Parcoa+Internal.h"; path = "Parcoa/Parcoa+Internal.h"; sourceTree = "<group>"; };
+		FD197C35167FC87B1B1D999E /* Pods_CSSTest_Interfa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSSTest_Interfa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8ED348A6CFD1662921C892 /* CASArgumentDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CASArgumentDescriptor.m; path = Classy/Reflection/CASArgumentDescriptor.m; sourceTree = "<group>"; };
+		FF1424F639B93F4CB66E237E /* ISSViewBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISSViewBuilder.m; path = InterfaCSS/UI/ISSViewBuilder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4B8C2E5440EFA52E9886A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA6FE0360D5E394FDAE9523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5B947A584D2E495DD2EC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E89E53CDB8E414743CDE1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF34466E8F6B7BC0D4635CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9215122769F311A467E4FF56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B735D6705F9424D3799AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4E607DCE67C1F683CBB3D6 /* Foundation.framework in Frameworks */,
+				5CE1C1B812D5FCF05C16C34E /* QuartzCore.framework in Frameworks */,
+				D277B442ED630E8659B17552 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D05A6BB4B6FD3342A96E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B2DAFE07FF6BE0E43200D8 /* CoreGraphics.framework in Frameworks */,
+				9B1080F5CCE4F29C92DA1648 /* Foundation.framework in Frameworks */,
+				BAFA7102F094645E83AB8ACE /* Parcoa.framework in Frameworks */,
+				8027FF462754DA178C1461D6 /* QuartzCore.framework in Frameworks */,
+				4E2B74CF7A104406DBC3675E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181C2260FA6D6E32C23AC554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B74943CC9D0093919E8F4F /* Parcoa.framework */,
+				6BE7928F62515524AAED5788 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27322B72FC7617C9B631BBBD = {
+			isa = PBXGroup;
+			children = (
+				A9B5D9581593BF511AF5BB9D /* Podfile */,
+				181C2260FA6D6E32C23AC554 /* Frameworks */,
+				9948F7EFAC0581EA25BDB152 /* Pods */,
+				DBB4A95C9BD1DE290164D50A /* Products */,
+				C3A8BE88E7E1BDCEB65D0C5C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		33CBD0A33161C7E249A5743C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA7E78B4204C63A0E8AE9601 /* Info.plist */,
+				3D455001D9B1F067C721BFEB /* Pods-CSSTest-Interfa-InterfaCSS.modulemap */,
+				F2534252859DC2EE44D3DFDA /* Pods-CSSTest-Interfa-InterfaCSS.xcconfig */,
+				BE59E4D01DC2E200E9B2D517 /* Pods-CSSTest-Interfa-InterfaCSS-Private.xcconfig */,
+				92097ED56AFC6FEC8D127CA4 /* Pods-CSSTest-Interfa-InterfaCSS-dummy.m */,
+				704E216443024EA520160FF1 /* Pods-CSSTest-Interfa-InterfaCSS-prefix.pch */,
+				D70E7769A6E3CA6D4094B948 /* Pods-CSSTest-Interfa-InterfaCSS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CSSTest-Interfa-InterfaCSS";
+			sourceTree = "<group>";
+		};
+		41201BE1F820ED08DA00006A /* Parcoa */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5E5E359E26D450D1CED83 /* NSString+Parcoa.h */,
+				E3EDF08D03CAFB035C948B1C /* NSString+Parcoa.m */,
+				34DA4CB4BD779C3AAB3A7B0D /* Parcoa.h */,
+				67F6842D208AE9E25147BECA /* Parcoa+Combinators.h */,
+				78AE979982519B4F62C6EAF3 /* Parcoa+Combinators.m */,
+				FC4FA5B6EC114FD6A0F00522 /* Parcoa+Internal.h */,
+				88D81CDE34A08AFAC613F855 /* Parcoa+Internal.m */,
+				4F76144C81FE3CA2B2C76C6E /* Parcoa+NSDictionary.h */,
+				2699249172CB5E1BD3DE42A7 /* Parcoa+NSDictionary.m */,
+				AD42527C2DEE27A7D9E6D7DF /* Parcoa+Numbers.h */,
+				3BC1235D5B28361D8861C01C /* Parcoa+Numbers.m */,
+				F455C810F2F7C3C141A72278 /* Parcoa+Predicates.h */,
+				FA3F5F8D280E605CC3C1DD17 /* Parcoa+Predicates.m */,
+				2A45C629738C059F9BDF7D6D /* Parcoa+Primitives.h */,
+				1660BD6D5D0F7DAAFE21220C /* Parcoa+Primitives.m */,
+				6DC262C1F95D0054A3BFAC97 /* ParcoaExpectation.h */,
+				868A1333121351A160BDD42C /* ParcoaExpectation.m */,
+				E55C58A5C2F7BC4C3EC48268 /* ParcoaParser.h */,
+				53466220A437886E7B7904CB /* ParcoaParser.m */,
+				E96B58BACC7A7E3DDCC26447 /* ParcoaParser+Combinators.h */,
+				49DB0F28E16C953CEBF435FD /* ParcoaParser+Combinators.m */,
+				717A014778718904A388BC8A /* ParcoaParser+NSDictionary.h */,
+				1CE16F1C9D5C3E39944F631E /* ParcoaParser+NSDictionary.m */,
+				19405837FECD26BB65E78749 /* ParcoaParserForward.h */,
+				67DAB97C8E7C5B9648970728 /* ParcoaParserForward.m */,
+				7AF86C60BCAFE45A22354D44 /* ParcoaPredicate.h */,
+				67C65A9B3851E8641DD63E60 /* ParcoaPredicate.m */,
+				3C6845DA4825EA8FEC566FBA /* ParcoaPredicate+Combinators.h */,
+				04CA131EDF76300EC3F133DF /* ParcoaPredicate+Combinators.m */,
+				11A7941BB0679F02136AFB6D /* ParcoaResult.h */,
+				E632E553B332CC14E8D19614 /* ParcoaResult.m */,
+				854BDBCE01BE2254E154B95B /* Support Files */,
+			);
+			path = Parcoa;
+			sourceTree = "<group>";
+		};
+		6869207EABAAA9CD0697BE5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96A7A2C5F7685C53BBD0D039 /* Info.plist */,
+				1DFACF5DFEB9F39362FDD5BF /* Pods-CSSTest-Classy-Classy.modulemap */,
+				182D1F562751F9116E794DAB /* Pods-CSSTest-Classy-Classy.xcconfig */,
+				989A7FB9385D7C79A5EED095 /* Pods-CSSTest-Classy-Classy-Private.xcconfig */,
+				DF7670A359C27B3ED4FC7BA6 /* Pods-CSSTest-Classy-Classy-dummy.m */,
+				5FAABE22336F3D67B1D792FC /* Pods-CSSTest-Classy-Classy-prefix.pch */,
+				2A6CE7E0622DDF12BE1F2FB1 /* Pods-CSSTest-Classy-Classy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CSSTest-Classy-Classy";
+			sourceTree = "<group>";
+		};
+		6BE7928F62515524AAED5788 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45983816BBFA3D4DD1435A23 /* CoreGraphics.framework */,
+				4F78A7164D0B209A523C6056 /* Foundation.framework */,
+				E16FB024931918386238DBB1 /* QuartzCore.framework */,
+				24890CD12363EE7CF8FA3950 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		854BDBCE01BE2254E154B95B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				812981E7076F792BC7BB4CCC /* Info.plist */,
+				8885AD6AFD5411D38D43DA85 /* Pods-CSSTest-Interfa-Parcoa.modulemap */,
+				758481D7038F0D20FEDDD8FD /* Pods-CSSTest-Interfa-Parcoa.xcconfig */,
+				F23F3C609F1CF8B89E9626B5 /* Pods-CSSTest-Interfa-Parcoa-Private.xcconfig */,
+				AAE600F83C39ED8A8C15045C /* Pods-CSSTest-Interfa-Parcoa-dummy.m */,
+				222E1A4FEDCFA47935FAD147 /* Pods-CSSTest-Interfa-Parcoa-prefix.pch */,
+				7482EA44633155F98B63FB04 /* Pods-CSSTest-Interfa-Parcoa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CSSTest-Interfa-Parcoa";
+			sourceTree = "<group>";
+		};
+		9426CFBE26A626BD52F96CD5 /* Classy */ = {
+			isa = PBXGroup;
+			children = (
+				7871A3888A78ACD1527F1F29 /* CASArgumentDescriptor.h */,
+				FD8ED348A6CFD1662921C892 /* CASArgumentDescriptor.m */,
+				211A69FAEC992C8E1F8D25D8 /* CASDeviceOSVersionItem.h */,
+				7F6E7FD0D1B03BF499277BDA /* CASDeviceOSVersionItem.m */,
+				741CCDFD6DC3B627F9BEF779 /* CASDeviceSelector.h */,
+				F17901594413CA1A492F9EDB /* CASDeviceSelector.m */,
+				E3070D16EBAF295CE64946AE /* CASDeviceSelectorItem.h */,
+				BC81AABA00F6F22B58E4E2CA /* CASDeviceTypeItem.h */,
+				6FD2D85725E7209637E21688 /* CASDeviceTypeItem.m */,
+				F069B59319BB5AA4BC673D6B /* CASExpressionSolver.h */,
+				810CF7776E3F9BAA49655287 /* CASExpressionSolver.m */,
+				0AE2D4039CDE351484FDE65D /* CASInvocation.h */,
+				1063BD8BE0198DF12D564EBC /* CASInvocation.m */,
+				551A6B770CAA9F1E9609112A /* CASLexer.h */,
+				CF5481D3648F7B400ECB8BDA /* CASLexer.m */,
+				D2FD1D8877BF9505CE429FF0 /* CASObjectClassDescriptor.h */,
+				700EEE21B738DDBA67F9F511 /* CASObjectClassDescriptor.m */,
+				6BACF2CDBDD112A1919AAF04 /* CASParser.h */,
+				0684D33B1015333C19EEAA88 /* CASParser.m */,
+				16EE55AE6A77531C984A25A7 /* CASPropertyDescriptor.h */,
+				6A957506458BC07F70EEEE5B /* CASPropertyDescriptor.m */,
+				6708956E7FBE24E8E6D35639 /* CASRuntimeExtensions.h */,
+				DB1D6F7D32FA92BEC29D85D2 /* CASRuntimeExtensions.m */,
+				6F195A7530D3E8DC92D93DDD /* CASStyleNode.h */,
+				89BE694176FAB4FF6D4192B2 /* CASStyleNode.m */,
+				3DE5981044DC37A940CAED18 /* CASStyleProperty.h */,
+				CC4D4C87EA50C59C1E8453E5 /* CASStyleProperty.m */,
+				9C466A4125BC69F19785E1FD /* CASStyleSelector.h */,
+				931641D945A04117F0BBD8B7 /* CASStyleSelector.m */,
+				4F2551EB8F527E27425836AD /* CASStyleableItem.h */,
+				66D227360A28C0DB6D0219A5 /* CASStyler.h */,
+				621E82902785F1B831920F6A /* CASStyler.m */,
+				E8D86329864F243D5EA9D505 /* CASTextAttributes.h */,
+				664ED9E2E51C3A3A6EBFCE89 /* CASTextAttributes.m */,
+				DDA89A4336A92FDDBBC6CD26 /* CASToken.h */,
+				BFB32FDAC4C38A3F910875BD /* CASToken.m */,
+				5EF58FA6D69A929993C47F2E /* CASUnitToken.h */,
+				4B6B9126652319A2E0215CAF /* CASUnitToken.m */,
+				82ADDB7CE39454B9E1963A6F /* CASUtilities.h */,
+				81F15EDB221E43EC843235FE /* CASUtilities.m */,
+				8DFE4C2EF84AE0A079CF3CB5 /* Classy.h */,
+				D1429071DE02C981C9827098 /* NSObject+CASSwizzle.h */,
+				603236E013F98924DC1D29DB /* NSObject+CASSwizzle.m */,
+				78094897665D15E3BDCBE14A /* NSRegularExpression+CASAdditions.h */,
+				FB0157E844B2ED1ADB372A1E /* NSRegularExpression+CASAdditions.m */,
+				67CFB6E767F182E542C619EC /* NSString+CASAdditions.h */,
+				58DDED0E9603601F518A3265 /* NSString+CASAdditions.m */,
+				9C8E974B9935007F8674A4BB /* UIBarItem+CASAdditions.h */,
+				E8042EBBD55A2816BBCA231E /* UIBarItem+CASAdditions.m */,
+				070465665F058E6576F2EB39 /* UIColor+CASAdditions.h */,
+				E8D61EEB74C3C44EDBAF0167 /* UIColor+CASAdditions.m */,
+				6DE4BB389C82508CFFC60833 /* UINavigationBar+CASAdditions.h */,
+				766C4A3DC0164A2B63BAA29C /* UINavigationBar+CASAdditions.m */,
+				1A6D0CFC78367F008B9200B6 /* UISlider+CASAdditions.h */,
+				B1D82AD5A30D5CF4196FC64F /* UISlider+CASAdditions.m */,
+				3E17DFD36BD96A30962EF832 /* UITabBar+CASAdditions.h */,
+				585F8679916816DD0A4EED94 /* UITabBar+CASAdditions.m */,
+				29C2755BA9952D0631D94A45 /* UITextField+CASAdditions.h */,
+				8E643D38A64C80D0FD183836 /* UITextField+CASAdditions.m */,
+				82E8AEFBB94BC8D5EC0FBD18 /* UIToolbar+CASAdditions.h */,
+				F2EE9F55EA58DEE96F1884F0 /* UIToolbar+CASAdditions.m */,
+				97A867BABB9CF4F66D18E146 /* UIView+CASAdditions.h */,
+				16B105EC89C12E580AF78AE8 /* UIView+CASAdditions.m */,
+				41657F8685E943707AA616A3 /* UIViewController+CASAdditions.h */,
+				C7AAF4C3D6EC3737710F669C /* UIViewController+CASAdditions.m */,
+				6869207EABAAA9CD0697BE5D /* Support Files */,
+			);
+			path = Classy;
+			sourceTree = "<group>";
+		};
+		9948F7EFAC0581EA25BDB152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9426CFBE26A626BD52F96CD5 /* Classy */,
+				FA389908EC779F3DA21B62C8 /* InterfaCSS */,
+				41201BE1F820ED08DA00006A /* Parcoa */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D94E1650B83BA10FB1D4698 /* Pods-CSSTest-Classy */ = {
+			isa = PBXGroup;
+			children = (
+				F9F54180AE588910F0748364 /* Info.plist */,
+				09C6955A1B8390BF0C5C4338 /* Pods-CSSTest-Classy.modulemap */,
+				29FDD6CD5270B483C749DCA9 /* Pods-CSSTest-Classy-acknowledgements.markdown */,
+				48098DBDBA09A16E64C6D064 /* Pods-CSSTest-Classy-acknowledgements.plist */,
+				06B81A168294C3F05346B982 /* Pods-CSSTest-Classy-dummy.m */,
+				E463B875729AFC37BEB63DC6 /* Pods-CSSTest-Classy-environment.h */,
+				10C652390E9AC618608344D0 /* Pods-CSSTest-Classy-frameworks.sh */,
+				C254BCCFA013F3873F4B33D0 /* Pods-CSSTest-Classy-resources.sh */,
+				8B681E3B1735104F82915C29 /* Pods-CSSTest-Classy-umbrella.h */,
+				5724D869C8A6C2BB71EC6594 /* Pods-CSSTest-Classy.debug.xcconfig */,
+				536A82DA996F33E32EE53CEC /* Pods-CSSTest-Classy.release.xcconfig */,
+			);
+			name = "Pods-CSSTest-Classy";
+			path = "Target Support Files/Pods-CSSTest-Classy";
+			sourceTree = "<group>";
+		};
+		B09FCF9826A926B1CFC481E4 /* Pods-CSSTest-Interfa */ = {
+			isa = PBXGroup;
+			children = (
+				9016831CAB424A77F94051D6 /* Info.plist */,
+				C366D2100C207EAFCB7663EE /* Pods-CSSTest-Interfa.modulemap */,
+				474602D9432745987C1BB54A /* Pods-CSSTest-Interfa-acknowledgements.markdown */,
+				A298B2011980B23767F0D7C0 /* Pods-CSSTest-Interfa-acknowledgements.plist */,
+				E1997EE3D74348314F63C615 /* Pods-CSSTest-Interfa-dummy.m */,
+				AC8A865FA662A26C21173734 /* Pods-CSSTest-Interfa-environment.h */,
+				002C6B949EFD17C53639031A /* Pods-CSSTest-Interfa-frameworks.sh */,
+				957323F214CD5403B9F60D6D /* Pods-CSSTest-Interfa-resources.sh */,
+				A739949FFD00EA1C7AB5DC5E /* Pods-CSSTest-Interfa-umbrella.h */,
+				7FC0AFF18B1F5CDCC605DF20 /* Pods-CSSTest-Interfa.debug.xcconfig */,
+				A1C5814D9057F46CCFD3BAFD /* Pods-CSSTest-Interfa.release.xcconfig */,
+			);
+			name = "Pods-CSSTest-Interfa";
+			path = "Target Support Files/Pods-CSSTest-Interfa";
+			sourceTree = "<group>";
+		};
+		C3A8BE88E7E1BDCEB65D0C5C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D94E1650B83BA10FB1D4698 /* Pods-CSSTest-Classy */,
+				B09FCF9826A926B1CFC481E4 /* Pods-CSSTest-Interfa */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBB4A95C9BD1DE290164D50A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2484E8A799F041F42F68F382 /* Classy.framework */,
+				BEE85C02750102CD1FECD871 /* InterfaCSS.framework */,
+				3A40CC97CE82CEAF365FDCE7 /* Parcoa.framework */,
+				7DD7F0451F5213A0DBA3025D /* Pods_CSSTest_Classy.framework */,
+				FD197C35167FC87B1B1D999E /* Pods_CSSTest_Interfa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA389908EC779F3DA21B62C8 /* InterfaCSS */ = {
+			isa = PBXGroup;
+			children = (
+				5C545FF9519F367D32430141 /* ISSDateUtils.h */,
+				EEC4A6C78FE86E4463C50BD4 /* ISSDateUtils.m */,
+				8E780BD5FEEAC5A7D5C8B3B3 /* ISSLazyValue.h */,
+				783440512EFEB66E047C5CFD /* ISSLazyValue.m */,
+				2CA824AC3340CE292C0642F1 /* ISSParcoaStyleSheetParser.h */,
+				6B992493F8AD10DF9C4FA3E5 /* ISSParcoaStyleSheetParser.m */,
+				E93D4BD0625AE49CF2CF7CEF /* ISSPointValue.h */,
+				08D8071CACF3680CF924FCDF /* ISSPointValue.m */,
+				273289BAD498025D6A56D3E9 /* ISSPropertyDeclaration.h */,
+				C5F5CD2BD5ACA7FDB4650312 /* ISSPropertyDeclaration.m */,
+				F781651252653A4E8E0D3638 /* ISSPropertyDeclarations.h */,
+				3050EBAF7F60B33E76ED4492 /* ISSPropertyDeclarations.m */,
+				1FF611C924C96B69E8D12DA4 /* ISSPropertyDefinition.h */,
+				0F00C73C042F8DAB6797D378 /* ISSPropertyDefinition.m */,
+				E88E23E5F5259D587604D143 /* ISSPropertyRegistry.h */,
+				CFEB298319BF1ABA12A14337 /* ISSPropertyRegistry.m */,
+				9D7F106B82761FC08A7E75C4 /* ISSPseudoClass.h */,
+				0D093FB6B298A1C77199378A /* ISSPseudoClass.m */,
+				E686E4811B7273CC9A5A6498 /* ISSRectValue.h */,
+				AD3AC5FFCD895D136507CDFA /* ISSRectValue.m */,
+				4DB81DD5D18F7A92A60E7FED /* ISSRefreshableResource.h */,
+				474885AC4CD525AB48F45472 /* ISSRefreshableResource.m */,
+				731DFE106ED4EE1D71831F17 /* ISSRootView.h */,
+				63B2AD53A118F052139D3728 /* ISSRootView.m */,
+				66B20F7A49BF71070366E0BF /* ISSRuntimeIntrospectionUtils.h */,
+				9965C96A45F3B423ECB1DB50 /* ISSRuntimeIntrospectionUtils.m */,
+				8616E2E56A31F31AEB6E48BA /* ISSSelector.h */,
+				6B5E279B208E372A83ADE9E7 /* ISSSelector.m */,
+				1062B1BA68086A37708C659A /* ISSSelectorChain.h */,
+				7D8E2249E6B2B8CFA462FEDE /* ISSSelectorChain.m */,
+				1BA0592EE2DFE356C3B5DE7E /* ISSStyleSheet.h */,
+				8CCC0258CEEC105BFF8A37FA /* ISSStyleSheet.m */,
+				C36C7A2A3A7703881D3B0B2A /* ISSStyleSheetParser.h */,
+				D8553798E928AF8C676DF06E /* ISSUIElementDetails.h */,
+				3BB895195BD6523D68FF4394 /* ISSUIElementDetails.m */,
+				4077847539015EE110F1C519 /* ISSViewBuilder.h */,
+				FF1424F639B93F4CB66E237E /* ISSViewBuilder.m */,
+				E4C3FCB4A269FC518F399A39 /* ISSViewHierarchyParser.h */,
+				407C214DC73CF6C5CD81319C /* ISSViewHierarchyParser.m */,
+				2657B3F42BDA25FF4D91F8C9 /* ISSViewPrototype.h */,
+				08AD98DDBA587A6EB32ED682 /* ISSViewPrototype.m */,
+				44028FAEB7DDC66E32FCB538 /* InterfaCSS.h */,
+				0B5BD5E378229C09824BD02B /* InterfaCSS.m */,
+				E20435AA8478B1F129C88B17 /* NSAttributedString+ISSAdditions.h */,
+				C17EF8B79ADA6B37167266CA /* NSAttributedString+ISSAdditions.m */,
+				1E7B79CAC3B44E27D7F6B33A /* NSDictionary+ISSDictionaryAdditions.h */,
+				8883612544135FF6F1F2C65D /* NSDictionary+ISSDictionaryAdditions.m */,
+				F53466CB6219E24F774D952A /* NSMutableArray+ISSAdditions.h */,
+				650AA863FDA8E1BE63CB1DE5 /* NSMutableArray+ISSAdditions.m */,
+				AAB9B5C2E10C4549CAB34558 /* NSObject+ISSLogSupport.h */,
+				03E2138D8C776031D122B90E /* NSObject+ISSLogSupport.m */,
+				5CD8C6B94E4B2DD4130FFBDB /* NSString+ISSStringAdditions.h */,
+				112DA59FE1FFA504273EA0AD /* NSString+ISSStringAdditions.m */,
+				B532274E04607F6674D2E5DC /* Parcoa+ISSAdditions.h */,
+				350E7294CF3CDEBFFF34C678 /* Parcoa+ISSAdditions.m */,
+				255C39220F60C97E8B0D0324 /* UICollectionView+InterfaCSS.h */,
+				B24861E8213D3142D0220715 /* UICollectionView+InterfaCSS.m */,
+				9C1CC20AEA10CC1A25368A96 /* UIColor+ISSColorAdditions.h */,
+				91EF03C972F3C10777B2C4CE /* UIColor+ISSColorAdditions.m */,
+				E63C39AC5B918ED6E0B9D9BC /* UITableView+InterfaCSS.h */,
+				DAAA9B7DD9636CD14EFF98F8 /* UITableView+InterfaCSS.m */,
+				913C5D15688595D7F35F9FB1 /* UIView+ISSPrototypeReusableView.h */,
+				87214018FCF3C20109DDAAD7 /* UIView+ISSPrototypeReusableView.m */,
+				F9906D228DBA867125AD25CB /* UIView+InterfaCSS.h */,
+				947209E4ADA6E92C6F8C624C /* UIView+InterfaCSS.m */,
+				33CBD0A33161C7E249A5743C /* Support Files */,
+			);
+			path = InterfaCSS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C29A1D4893B7E0CCB02C5CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F4DDE6BC91723E690E315A /* NSString+Parcoa.h in Headers */,
+				6A24C9012871C8A6E02893DC /* Parcoa+Combinators.h in Headers */,
+				F2C20FD635CDDE007E9E18B7 /* Parcoa+Internal.h in Headers */,
+				0AD854AD76CB0CFB5B39AA3D /* Parcoa+NSDictionary.h in Headers */,
+				0082C22760EF0E706439290A /* Parcoa+Numbers.h in Headers */,
+				DE0808E4247B6FB1DE15DE6A /* Parcoa+Predicates.h in Headers */,
+				30635EFF9224DD81D4949C26 /* Parcoa+Primitives.h in Headers */,
+				FFE1DCD84B1E237AABA70932 /* Parcoa.h in Headers */,
+				B8226156097ADC221F93E413 /* ParcoaExpectation.h in Headers */,
+				63139FD03EFBC563455D7B42 /* ParcoaParser+Combinators.h in Headers */,
+				306F2407E9117FFFE0608E3B /* ParcoaParser+NSDictionary.h in Headers */,
+				A5D05B8AC87B78E6ED8D64C9 /* ParcoaParser.h in Headers */,
+				89FEBA360B4519ED47121682 /* ParcoaParserForward.h in Headers */,
+				C02788958699C53A24CD727C /* ParcoaPredicate+Combinators.h in Headers */,
+				F462B61800585480ADCCFD51 /* ParcoaPredicate.h in Headers */,
+				5C6700671380E01C555E1052 /* ParcoaResult.h in Headers */,
+				881630AEFA5542C9B9A19BF2 /* Pods-CSSTest-Interfa-Parcoa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17B167A669B73B939C7007C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5FDDA7CCE13EA8B085426F /* ISSDateUtils.h in Headers */,
+				88BB7CCF1DF780881DC9FD17 /* ISSLazyValue.h in Headers */,
+				E1A1E1713E24E02514603C64 /* ISSParcoaStyleSheetParser.h in Headers */,
+				EF7C4D774A9FD382EEC07517 /* ISSPointValue.h in Headers */,
+				107445B90B519117E8419FF2 /* ISSPropertyDeclaration.h in Headers */,
+				1A2A1F19572E129F489D1C17 /* ISSPropertyDeclarations.h in Headers */,
+				0441A5B98F8A2F01B3F61E88 /* ISSPropertyDefinition.h in Headers */,
+				630838F1A79A344FF5DCD966 /* ISSPropertyRegistry.h in Headers */,
+				9FCEFC1F6109901D354F8516 /* ISSPseudoClass.h in Headers */,
+				33999277C4ED176127B4B121 /* ISSRectValue.h in Headers */,
+				D1D44822F7C359981EE6068B /* ISSRefreshableResource.h in Headers */,
+				99E4BC261A13AA6AEBC3A393 /* ISSRootView.h in Headers */,
+				F23DD711CD74320E5F13B3D4 /* ISSRuntimeIntrospectionUtils.h in Headers */,
+				E4C5F1935E01EE0228EC6E7C /* ISSSelector.h in Headers */,
+				66B5600F4D0EAD896DE03F2A /* ISSSelectorChain.h in Headers */,
+				E5DFD7C1F49EC216192BEEE9 /* ISSStyleSheet.h in Headers */,
+				28A269CB9D82BEBE9F6B32A8 /* ISSStyleSheetParser.h in Headers */,
+				D815324434F0C92DFDE03819 /* ISSUIElementDetails.h in Headers */,
+				08586ABACAF0B76387B2F0A3 /* ISSViewBuilder.h in Headers */,
+				414D13B8F8DFCC56B5E2CE95 /* ISSViewHierarchyParser.h in Headers */,
+				2A119C1C89C2892BBAAFFAE5 /* ISSViewPrototype.h in Headers */,
+				DCED6DEFB11236B8AE95C8E7 /* InterfaCSS.h in Headers */,
+				7586C8C76B78AA455E9DE386 /* NSAttributedString+ISSAdditions.h in Headers */,
+				7860FC7502CAFB1926389128 /* NSDictionary+ISSDictionaryAdditions.h in Headers */,
+				E0975BA93949CD2F0FFA8C13 /* NSMutableArray+ISSAdditions.h in Headers */,
+				5C820AB826B99C89F9C5E691 /* NSObject+ISSLogSupport.h in Headers */,
+				596B3585B2D5997BE651013D /* NSString+ISSStringAdditions.h in Headers */,
+				2767AF735C582BA517489E17 /* Parcoa+ISSAdditions.h in Headers */,
+				AF81592ADA29922EFE224775 /* Pods-CSSTest-Interfa-InterfaCSS-umbrella.h in Headers */,
+				8FB1982E75D2191A180E1D8D /* UICollectionView+InterfaCSS.h in Headers */,
+				1013AD06FBCF6E77EB8AA734 /* UIColor+ISSColorAdditions.h in Headers */,
+				DB9549D897A81992DDF34C92 /* UITableView+InterfaCSS.h in Headers */,
+				6F094960A4D394656DFFEA4D /* UIView+ISSPrototypeReusableView.h in Headers */,
+				A0968AEC6A427B7C1E0713C7 /* UIView+InterfaCSS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4102A1AA6AEB417BC8FD251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BF9E57CBC68B26BE4BFAAB /* CASArgumentDescriptor.h in Headers */,
+				C9986AD560DF79B23AC09E84 /* CASDeviceOSVersionItem.h in Headers */,
+				1CC2FDD60A20247DE0C0263F /* CASDeviceSelector.h in Headers */,
+				BCAEB1177EF3ED34FAA34417 /* CASDeviceSelectorItem.h in Headers */,
+				DCB196AFA37A58914962AF88 /* CASDeviceTypeItem.h in Headers */,
+				73B2F398B5FF79433448EAA9 /* CASExpressionSolver.h in Headers */,
+				38D931FBACDEF339AF6CDF3C /* CASInvocation.h in Headers */,
+				3C55BD7CB7EBF3A37CF8DB1E /* CASLexer.h in Headers */,
+				BD24F531C665B52422AF53F8 /* CASObjectClassDescriptor.h in Headers */,
+				F598577BCDEE70743CDE383D /* CASParser.h in Headers */,
+				791572C996D86FBA3EF9C9AB /* CASPropertyDescriptor.h in Headers */,
+				E5B5245CF85665883AADB174 /* CASRuntimeExtensions.h in Headers */,
+				C58B8CDE2DA415D0C53BB310 /* CASStyleNode.h in Headers */,
+				987F9641ACB8C3573CDBD11F /* CASStyleProperty.h in Headers */,
+				9899B6DAFD1AD70465AF7FEB /* CASStyleSelector.h in Headers */,
+				B732113C997FC648ABCA4D92 /* CASStyleableItem.h in Headers */,
+				E6F99482C3023904007D83AD /* CASStyler.h in Headers */,
+				59BC82AA800F893D821A7166 /* CASTextAttributes.h in Headers */,
+				25B58D5BBEE9B7F142BE08A0 /* CASToken.h in Headers */,
+				6CE6086D943351F81DF54A0F /* CASUnitToken.h in Headers */,
+				07C92BFC163F659C52AF5754 /* CASUtilities.h in Headers */,
+				498F4F5BA3F4E019479239C5 /* Classy.h in Headers */,
+				D176B86ED0631ACF1BF81FF8 /* NSObject+CASSwizzle.h in Headers */,
+				53905675430FB6B9D808B3C3 /* NSRegularExpression+CASAdditions.h in Headers */,
+				B33474D11D9B6D780A149044 /* NSString+CASAdditions.h in Headers */,
+				50069E2F619FEA4AEE851E6E /* Pods-CSSTest-Classy-Classy-umbrella.h in Headers */,
+				317D90782D47468A43763A35 /* UIBarItem+CASAdditions.h in Headers */,
+				E3D524FD46B4BEAFC5426D24 /* UIColor+CASAdditions.h in Headers */,
+				8774BB403E37431E419AD023 /* UINavigationBar+CASAdditions.h in Headers */,
+				B238835FF7C540029B107150 /* UISlider+CASAdditions.h in Headers */,
+				8E9A313512AF381AAE68CF80 /* UITabBar+CASAdditions.h in Headers */,
+				F438BA71532204B33AD67337 /* UITextField+CASAdditions.h in Headers */,
+				128FAB29B0B8C2064777FCA2 /* UIToolbar+CASAdditions.h in Headers */,
+				F39E57D10718D20E94C27927 /* UIView+CASAdditions.h in Headers */,
+				19EA4DA326215931EA7A518C /* UIViewController+CASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D95E3AD461627B6B7FBA29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD80A64233C5E812436FD8D6 /* Pods-CSSTest-Classy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBCA9A1CB04D9865638D75C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CFD2A10F14D6E95AF3A72E /* Pods-CSSTest-Interfa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0360CC3D4BA77DA699524C8B /* Pods-CSSTest-Interfa-InterfaCSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90E0CCD78B87AE8B5D2892F /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Interfa-InterfaCSS" */;
+			buildPhases = (
+				891B57951A1D6ED72684FA60 /* Sources */,
+				C8D05A6BB4B6FD3342A96E93 /* Frameworks */,
+				C17B167A669B73B939C7007C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3003607E5EF7B3A630EA76B /* PBXTargetDependency */,
+			);
+			name = "Pods-CSSTest-Interfa-InterfaCSS";
+			productName = "Pods-CSSTest-Interfa-InterfaCSS";
+			productReference = BEE85C02750102CD1FECD871 /* InterfaCSS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		196CCFF0C84B46902233418E /* Pods-CSSTest-Interfa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01F69A026FCC0C6528C6F35 /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Interfa" */;
+			buildPhases = (
+				A21143D86D002679755DD5F0 /* Sources */,
+				7F5B947A584D2E495DD2EC54 /* Frameworks */,
+				ECBCA9A1CB04D9865638D75C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9A736D991AB05F65984A80A /* PBXTargetDependency */,
+				09D9597E215F170901D7CDC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-CSSTest-Interfa";
+			productName = "Pods-CSSTest-Interfa";
+			productReference = FD197C35167FC87B1B1D999E /* Pods_CSSTest_Interfa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C7D0895519BC89CDD4DA88A /* Pods-CSSTest-Classy-Classy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E6E7300EC6141C516CD2DD /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Classy-Classy" */;
+			buildPhases = (
+				E08C1E96C09C9881153FD13E /* Sources */,
+				A8B735D6705F9424D3799AE7 /* Frameworks */,
+				C4102A1AA6AEB417BC8FD251 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CSSTest-Classy-Classy";
+			productName = "Pods-CSSTest-Classy-Classy";
+			productReference = 2484E8A799F041F42F68F382 /* Classy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		325B110A1E44C30ECC531914 /* Pods-CSSTest-Classy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94355D39261C5344F93C98DB /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Classy" */;
+			buildPhases = (
+				8D060F53B8CF6A5582C0B888 /* Sources */,
+				8AF34466E8F6B7BC0D4635CA /* Frameworks */,
+				E9D95E3AD461627B6B7FBA29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FEA17C7D3967D930819AD6E /* PBXTargetDependency */,
+			);
+			name = "Pods-CSSTest-Classy";
+			productName = "Pods-CSSTest-Classy";
+			productReference = 7DD7F0451F5213A0DBA3025D /* Pods_CSSTest_Classy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C28D445E71EA5D5B4C0F0041 /* Pods-CSSTest-Interfa-Parcoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5631EA7880BE64A1BCAD50 /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Interfa-Parcoa" */;
+			buildPhases = (
+				527F2ACD8CEA12D583D40FA1 /* Sources */,
+				2B4B8C2E5440EFA52E9886A9 /* Frameworks */,
+				5C29A1D4893B7E0CCB02C5CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CSSTest-Interfa-Parcoa";
+			productName = "Pods-CSSTest-Interfa-Parcoa";
+			productReference = 3A40CC97CE82CEAF365FDCE7 /* Parcoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5B8F9C7D1515B047C5D9B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 711986BF11C66F4095480C6F /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27322B72FC7617C9B631BBBD;
+			productRefGroup = DBB4A95C9BD1DE290164D50A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				325B110A1E44C30ECC531914 /* Pods-CSSTest-Classy */,
+				1C7D0895519BC89CDD4DA88A /* Pods-CSSTest-Classy-Classy */,
+				196CCFF0C84B46902233418E /* Pods-CSSTest-Interfa */,
+				0360CC3D4BA77DA699524C8B /* Pods-CSSTest-Interfa-InterfaCSS */,
+				C28D445E71EA5D5B4C0F0041 /* Pods-CSSTest-Interfa-Parcoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527F2ACD8CEA12D583D40FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D85208D52EB6CEC51C4CE0 /* NSString+Parcoa.m in Sources */,
+				0CB239FFE632C5B865324500 /* Parcoa+Combinators.m in Sources */,
+				0F434BA5526575261CF8338C /* Parcoa+Internal.m in Sources */,
+				ADE53A843C208E54B1BC9344 /* Parcoa+NSDictionary.m in Sources */,
+				F450AAE65DDF558A0D2BA3C2 /* Parcoa+Numbers.m in Sources */,
+				5AAB7315E7EE642F11DE8DC3 /* Parcoa+Predicates.m in Sources */,
+				1E57DAA13BD82E315BB2472B /* Parcoa+Primitives.m in Sources */,
+				EC0B1E6C5BC80F2C95A47907 /* ParcoaExpectation.m in Sources */,
+				242EE3AC23473FE62AB99E51 /* ParcoaParser+Combinators.m in Sources */,
+				EEC88290087F6BEBB41C3316 /* ParcoaParser+NSDictionary.m in Sources */,
+				11E5061F768CDDA8E5BEC44D /* ParcoaParser.m in Sources */,
+				A45EDC29B53ADCD132DF7790 /* ParcoaParserForward.m in Sources */,
+				F9BB1F23833EF33F3E288A24 /* ParcoaPredicate+Combinators.m in Sources */,
+				7164CB85928A288F3B033ECE /* ParcoaPredicate.m in Sources */,
+				660626839BB5A136765B1E24 /* ParcoaResult.m in Sources */,
+				8EF08A360E2138B5FB6841FF /* Pods-CSSTest-Interfa-Parcoa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891B57951A1D6ED72684FA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2557CB05D65FD4FE6FB4E2E /* ISSDateUtils.m in Sources */,
+				56B3F3785A6229CCFB8A96B2 /* ISSLazyValue.m in Sources */,
+				BD391FF3197A05A0D83593F5 /* ISSParcoaStyleSheetParser.m in Sources */,
+				DE9DBE6D3860EFA159D6732D /* ISSPointValue.m in Sources */,
+				46FA54384B4C6D92D723DEF2 /* ISSPropertyDeclaration.m in Sources */,
+				177B633A151B986F4644962A /* ISSPropertyDeclarations.m in Sources */,
+				18F0C01B2D7B921E0EA6DD73 /* ISSPropertyDefinition.m in Sources */,
+				79930BE775EF54BBACBD34D2 /* ISSPropertyRegistry.m in Sources */,
+				CF0BA4B60DC17268D90DEF8F /* ISSPseudoClass.m in Sources */,
+				B5B3E9A43FD413C129497082 /* ISSRectValue.m in Sources */,
+				C0327141DB298F47AD327437 /* ISSRefreshableResource.m in Sources */,
+				6465A980A6AEB130375EFFD0 /* ISSRootView.m in Sources */,
+				4F089CFEF0B1C6BA51F5CD41 /* ISSRuntimeIntrospectionUtils.m in Sources */,
+				2BE80C141108A0F05A1E5A44 /* ISSSelector.m in Sources */,
+				383D5C9CB64D156EC103A374 /* ISSSelectorChain.m in Sources */,
+				22A72CCA40205AC037D540A4 /* ISSStyleSheet.m in Sources */,
+				8EA97BC6EF5D37506296DD82 /* ISSUIElementDetails.m in Sources */,
+				B862E6B8D5C163A850904E7A /* ISSViewBuilder.m in Sources */,
+				5979FB4FEC0FD821EC9CA395 /* ISSViewHierarchyParser.m in Sources */,
+				D0891F8748BB109CE4CD9B2C /* ISSViewPrototype.m in Sources */,
+				E8B30116C318CFB987638AA3 /* InterfaCSS.m in Sources */,
+				1D4813C31DB30F9B85E2F354 /* NSAttributedString+ISSAdditions.m in Sources */,
+				F54473731C72AE6AC85DF441 /* NSDictionary+ISSDictionaryAdditions.m in Sources */,
+				211F9A3A4D3F71C29D13BD64 /* NSMutableArray+ISSAdditions.m in Sources */,
+				FDC9D98DC0919D1145AECB21 /* NSObject+ISSLogSupport.m in Sources */,
+				9CACC2E3193D20344D831B31 /* NSString+ISSStringAdditions.m in Sources */,
+				BCDC721D98CB4F2096C90A14 /* Parcoa+ISSAdditions.m in Sources */,
+				DC744A8291B9D5A02B7F49B6 /* Pods-CSSTest-Interfa-InterfaCSS-dummy.m in Sources */,
+				72C5D45154538E1F891A9EEE /* UICollectionView+InterfaCSS.m in Sources */,
+				7EE61E1A01257DD7D8EA571E /* UIColor+ISSColorAdditions.m in Sources */,
+				A09BCF1430DEB3A6CC0BB083 /* UITableView+InterfaCSS.m in Sources */,
+				D686FDDE51CBC33912A6F17A /* UIView+ISSPrototypeReusableView.m in Sources */,
+				529EDE181E704E653F7F935F /* UIView+InterfaCSS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D060F53B8CF6A5582C0B888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659C83421E58A90E6A9122BF /* Pods-CSSTest-Classy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21143D86D002679755DD5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F3A78CED833F7A9AA43B62 /* Pods-CSSTest-Interfa-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08C1E96C09C9881153FD13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18A0C4F8EC88192974B8B5A /* CASArgumentDescriptor.m in Sources */,
+				BD214AE8B4FF8CF0B69F81E5 /* CASDeviceOSVersionItem.m in Sources */,
+				785DE697D85F18460BA7039B /* CASDeviceSelector.m in Sources */,
+				CDA1779C6A2B7EEFB7B530FF /* CASDeviceTypeItem.m in Sources */,
+				99F53E74A8BB4F939F508148 /* CASExpressionSolver.m in Sources */,
+				CE76BF6D6BEE03615A1ECFE3 /* CASInvocation.m in Sources */,
+				ADFE0FD955CB041C7D39C167 /* CASLexer.m in Sources */,
+				D2CA2987595B397F321D8808 /* CASObjectClassDescriptor.m in Sources */,
+				1DA6FA19728E3E9FFA41A1E1 /* CASParser.m in Sources */,
+				DBFDB77D2AA39BB16F079E38 /* CASPropertyDescriptor.m in Sources */,
+				93B926F1DC5FA5AB239E5DF2 /* CASRuntimeExtensions.m in Sources */,
+				7743ED9C378EBEA28B8BBEC9 /* CASStyleNode.m in Sources */,
+				75DB14698AC74FCD4803E67F /* CASStyleProperty.m in Sources */,
+				3BC5719F1A2F7E5521B02D08 /* CASStyleSelector.m in Sources */,
+				B93DC2EC4D1FCEE609DFD571 /* CASStyler.m in Sources */,
+				CBF08890E86E63C80655AF16 /* CASTextAttributes.m in Sources */,
+				29CA4B11C9219FFEE7707198 /* CASToken.m in Sources */,
+				DE362FDB17D41B8F179FE456 /* CASUnitToken.m in Sources */,
+				D85217817FF4EA21E3F2C4B9 /* CASUtilities.m in Sources */,
+				C14F6B053360E6CBCD464999 /* NSObject+CASSwizzle.m in Sources */,
+				B33B31E3CBCB593924B2E8D6 /* NSRegularExpression+CASAdditions.m in Sources */,
+				4597A5454A8C61CD830C6E46 /* NSString+CASAdditions.m in Sources */,
+				9E4AB2E73E52D8D7BC91F633 /* Pods-CSSTest-Classy-Classy-dummy.m in Sources */,
+				60B309C274D99F616B69424F /* UIBarItem+CASAdditions.m in Sources */,
+				8F0DE1205E9657EB23384B53 /* UIColor+CASAdditions.m in Sources */,
+				08B274155DDACAAC0086DAFC /* UINavigationBar+CASAdditions.m in Sources */,
+				E5012A20FD3F498E4729239A /* UISlider+CASAdditions.m in Sources */,
+				07008E2F559A013460D7DAA4 /* UITabBar+CASAdditions.m in Sources */,
+				1F2F6B870B4E7315EF9150CD /* UITextField+CASAdditions.m in Sources */,
+				28E98C21EB2CFC0C619014EE /* UIToolbar+CASAdditions.m in Sources */,
+				C5C7BCD1E3B1DB825210CFA8 /* UIView+CASAdditions.m in Sources */,
+				6276035D82C4DEC1FCA48DF6 /* UIViewController+CASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09D9597E215F170901D7CDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CSSTest-Interfa-Parcoa";
+			target = C28D445E71EA5D5B4C0F0041 /* Pods-CSSTest-Interfa-Parcoa */;
+			targetProxy = 2BC5DEEE5ED5AD822A2FAE46 /* PBXContainerItemProxy */;
+		};
+		4FEA17C7D3967D930819AD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CSSTest-Classy-Classy";
+			target = 1C7D0895519BC89CDD4DA88A /* Pods-CSSTest-Classy-Classy */;
+			targetProxy = 61F1DEDF5A262E3DFD1C55A1 /* PBXContainerItemProxy */;
+		};
+		A9A736D991AB05F65984A80A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CSSTest-Interfa-InterfaCSS";
+			target = 0360CC3D4BA77DA699524C8B /* Pods-CSSTest-Interfa-InterfaCSS */;
+			targetProxy = 95463C1820A3CF8022AD77D1 /* PBXContainerItemProxy */;
+		};
+		D3003607E5EF7B3A630EA76B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CSSTest-Interfa-Parcoa";
+			target = C28D445E71EA5D5B4C0F0041 /* Pods-CSSTest-Interfa-Parcoa */;
+			targetProxy = 48C2912BC050D9D158EB0431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22E24A5EA3F24C60F186958C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5724D869C8A6C2BB71EC6594 /* Pods-CSSTest-Classy.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Classy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Classy/Pods-CSSTest-Classy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CSSTest_Classy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EEDC83A9FBCFFB651EAFDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE59E4D01DC2E200E9B2D517 /* Pods-CSSTest-Interfa-InterfaCSS-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CSSTest-Interfa-InterfaCSS/Pods-CSSTest-Interfa-InterfaCSS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Interfa-InterfaCSS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Interfa-InterfaCSS/Pods-CSSTest-Interfa-InterfaCSS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = InterfaCSS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6303611723C9320577A1FEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536A82DA996F33E32EE53CEC /* Pods-CSSTest-Classy.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Classy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Classy/Pods-CSSTest-Classy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CSSTest_Classy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77B27E50E0C1A79C28E25D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C5814D9057F46CCFD3BAFD /* Pods-CSSTest-Interfa.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Interfa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Interfa/Pods-CSSTest-Interfa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CSSTest_Interfa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A990DAF8AA4448CA9695349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23F3C609F1CF8B89E9626B5 /* Pods-CSSTest-Interfa-Parcoa-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CSSTest-Interfa-Parcoa/Pods-CSSTest-Interfa-Parcoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Interfa-Parcoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Interfa-Parcoa/Pods-CSSTest-Interfa-Parcoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Parcoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CF55CD9159B5FA915DF7145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23F3C609F1CF8B89E9626B5 /* Pods-CSSTest-Interfa-Parcoa-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CSSTest-Interfa-Parcoa/Pods-CSSTest-Interfa-Parcoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Interfa-Parcoa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Interfa-Parcoa/Pods-CSSTest-Interfa-Parcoa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Parcoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85352B468777F9CC0462E32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989A7FB9385D7C79A5EED095 /* Pods-CSSTest-Classy-Classy-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CSSTest-Classy-Classy/Pods-CSSTest-Classy-Classy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Classy-Classy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Classy-Classy/Pods-CSSTest-Classy-Classy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Classy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		864EA0AA38B9E8B71082B587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC0AFF18B1F5CDCC605DF20 /* Pods-CSSTest-Interfa.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Interfa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Interfa/Pods-CSSTest-Interfa.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CSSTest_Interfa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CCA9544598AEE78C6DCDCF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B31C3FE3E9BFE42BD561BCD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE59E4D01DC2E200E9B2D517 /* Pods-CSSTest-Interfa-InterfaCSS-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CSSTest-Interfa-InterfaCSS/Pods-CSSTest-Interfa-InterfaCSS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Interfa-InterfaCSS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Interfa-InterfaCSS/Pods-CSSTest-Interfa-InterfaCSS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = InterfaCSS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3B9B49E8554ABF1C26A0738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989A7FB9385D7C79A5EED095 /* Pods-CSSTest-Classy-Classy-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CSSTest-Classy-Classy/Pods-CSSTest-Classy-Classy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTest-Classy-Classy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTest-Classy-Classy/Pods-CSSTest-Classy-Classy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Classy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB6921371D58008C34822834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5631EA7880BE64A1BCAD50 /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Interfa-Parcoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A990DAF8AA4448CA9695349 /* Debug */,
+				7CF55CD9159B5FA915DF7145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711986BF11C66F4095480C6F /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CCA9544598AEE78C6DCDCF2 /* Debug */,
+				CB6921371D58008C34822834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E6E7300EC6141C516CD2DD /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Classy-Classy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B9B49E8554ABF1C26A0738 /* Debug */,
+				85352B468777F9CC0462E32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94355D39261C5344F93C98DB /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Classy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E24A5EA3F24C60F186958C /* Debug */,
+				6303611723C9320577A1FEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90E0CCD78B87AE8B5D2892F /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Interfa-InterfaCSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEDC83A9FBCFFB651EAFDD3 /* Debug */,
+				B31C3FE3E9BFE42BD561BCD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01F69A026FCC0C6528C6F35 /* Build configuration list for PBXNativeTarget "Pods-CSSTest-Interfa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864EA0AA38B9E8B71082B587 /* Debug */,
+				77B27E50E0C1A79C28E25D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5B8F9C7D1515B047C5D9B11 /* Project object */;
+}

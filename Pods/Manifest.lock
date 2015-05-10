@@ -1,0 +1,16 @@
+PODS:
+  - Classy (0.2.4)
+  - InterfaCSS (0.9.13):
+    - Parcoa (~> 0.0.1)
+  - Parcoa (0.0.1)
+
+DEPENDENCIES:
+  - Classy (~> 0.2)
+  - InterfaCSS (~> 0.9)
+
+SPEC CHECKSUMS:
+  Classy: 8d39a27d36865856c8cf21cba5d58fa9252037d9
+  InterfaCSS: 74bd7dd99bcdb29a9377212612164bf4e7b67c86
+  Parcoa: 5d448554305720c8493a76f93ee886e8aec85b41
+
+COCOAPODS: 0.36.3
