@@ -1,0 +1,6 @@
+framework module Pods_CSSTest_Interfa {
+  umbrella header "Pods-CSSTest-Interfa-umbrella.h"
+
+  export *
+  module * { export * }
+}

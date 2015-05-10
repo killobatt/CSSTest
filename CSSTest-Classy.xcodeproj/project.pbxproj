@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06B98CEBFC95B5D6876141B4 /* Pods_CSSTest_Classy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DDB079C5866D8B07C59DFC /* Pods_CSSTest_Classy.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CBB3F5761AFF9D41006EDDA2 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */; };
 		CBE944231AFE7EA40036530F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944221AFE7EA40036530F /* main.m */; };
 		CBE944261AFE7EA40036530F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944251AFE7EA40036530F /* AppDelegate.m */; };
 		CBE944291AFE7EA40036530F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944281AFE7EA40036530F /* MasterViewController.m */; };
@@ -56,6 +57,8 @@
 		45798576F5D9CC014FACAED6 /* Pods-CSSTest-Interfa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSTest-Interfa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSSTest-Interfa/Pods-CSSTest-Interfa.debug.xcconfig"; sourceTree = "<group>"; };
 		52C58A04D77D830B9844D09D /* Pods-CSSTest-Interfa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSTest-Interfa.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSSTest-Interfa/Pods-CSSTest-Interfa.release.xcconfig"; sourceTree = "<group>"; };
 		86BC4A154016E5D0F4D132D9 /* Pods-CSSTest-Classy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSSTest-Classy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSSTest-Classy/Pods-CSSTest-Classy.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3F5741AFF9D40006EDDA2 /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
 		CBE9441D1AFE7EA40036530F /* CSSTest-Classy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSSTest-Classy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE944211AFE7EA40036530F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE944221AFE7EA40036530F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				CBE944251AFE7EA40036530F /* AppDelegate.m */,
 				CBE944271AFE7EA40036530F /* MasterViewController.h */,
 				CBE944281AFE7EA40036530F /* MasterViewController.m */,
+				CBB3F5741AFF9D40006EDDA2 /* AlbumTableViewCell.h */,
+				CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */,
 				CBE9442A1AFE7EA40036530F /* DetailViewController.h */,
 				CBE9442B1AFE7EA40036530F /* DetailViewController.m */,
 				CBE9442D1AFE7EA40036530F /* Main.storyboard */,
@@ -540,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBE944261AFE7EA40036530F /* AppDelegate.m in Sources */,
+				CBB3F5761AFF9D41006EDDA2 /* AlbumTableViewCell.m in Sources */,
 				CBE944B41AFF84300036530F /* DataModel.m in Sources */,
 				CBE944291AFE7EA40036530F /* MasterViewController.m in Sources */,
 				CBE944231AFE7EA40036530F /* main.m in Sources */,

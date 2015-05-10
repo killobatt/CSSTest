@@ -1,0 +1,6 @@
+framework module Pods_CSSTest_Classy {
+  umbrella header "Pods-CSSTest-Classy-umbrella.h"
+
+  export *
+  module * { export * }
+}

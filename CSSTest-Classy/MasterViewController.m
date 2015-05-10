@@ -8,6 +8,7 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "AlbumTableViewCell.h"
 
 @interface MasterViewController ()
 @property MPMediaQuery *query;
@@ -29,8 +30,6 @@
     self.query = [MPMediaQuery albumsQuery];
     [self.tableView reloadData];
     
-    // Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
@@ -42,7 +41,7 @@
 #pragma mark - Segues
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+    if ([[segue identifier] isEqualToString:@"AlbumCell"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         NSDate *object = self.query.items[indexPath.row];
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
@@ -70,12 +69,12 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    AlbumTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
 
     MPMediaQuerySection *mediaSection = self.query.collectionSections[indexPath.section];
     
     MPMediaItemCollection *albumItem = self.query.collections[mediaSection.range.location + indexPath.row];
-    cell.textLabel.text = [albumItem.representativeItem valueForProperty:MPMediaItemPropertyAlbumTitle];
+    cell.album = albumItem;
     return cell;
 }
 

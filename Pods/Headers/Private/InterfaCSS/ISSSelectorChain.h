@@ -1,0 +1,1 @@
+../../../InterfaCSS/InterfaCSS/Model/ISSSelectorChain.h

@@ -1,0 +1,6 @@
+framework module InterfaCSS {
+  umbrella header "Pods-CSSTest-Interfa-InterfaCSS-umbrella.h"
+
+  export *
+  module * { export * }
+}

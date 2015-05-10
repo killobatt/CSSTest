@@ -1,0 +1,6 @@
+framework module Parcoa {
+  umbrella header "Pods-CSSTest-Interfa-Parcoa-umbrella.h"
+
+  export *
+  module * { export * }
+}
