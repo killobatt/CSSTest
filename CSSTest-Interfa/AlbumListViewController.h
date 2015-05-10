@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
+@class AlbumViewController;
 
-@interface MasterViewController : UITableViewController
+@interface AlbumListViewController : UITableViewController
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) AlbumViewController *detailViewController;
 
 
 @end

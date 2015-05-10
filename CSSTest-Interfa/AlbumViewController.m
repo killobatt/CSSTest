@@ -1,18 +1,24 @@
 //
 //  DetailViewController.m
-//  CSSTest-Classy
+//  CSSTest-Interfa
 //
 //  Created by Vjacheslav Volodjko on 09.05.15.
 //  Copyright (c) 2015 Vjacheslav Volodjko. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "AlbumViewController.h"
 
-@interface DetailViewController ()
+@interface AlbumViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *albumTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *artistLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yearLabel;
+@property (weak, nonatomic) IBOutlet UILabel *genreLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *artworkImageView;
 
 @end
 
-@implementation DetailViewController
+@implementation AlbumViewController
 
 #pragma mark - Managing the detail item
 

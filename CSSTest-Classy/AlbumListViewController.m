@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Vjacheslav Volodjko. All rights reserved.
 //
 
-#import "MasterViewController.h"
-#import "DetailViewController.h"
+#import "AlbumListViewController.h"
+#import "AlbumViewController.h"
 #import "AlbumTableViewCell.h"
 
-@interface MasterViewController ()
+@interface AlbumListViewController ()
 @property MPMediaQuery *query;
 @end
 
-@implementation MasterViewController
+@implementation AlbumListViewController
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -30,7 +30,7 @@
     self.query = [MPMediaQuery albumsQuery];
     [self.tableView reloadData];
     
-    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.detailViewController = (AlbumViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,14 +38,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (MPMediaItemCollection *)albumAtIndexPath:(NSIndexPath *)indexPath
+{
+    MPMediaQuerySection *mediaSection = self.query.collectionSections[indexPath.section];
+    return self.query.collections[mediaSection.range.location + indexPath.row];
+}
+
 #pragma mark - Segues
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"AlbumCell"]) {
+    if ([[segue identifier] isEqualToString:@"AlbumDetails"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = self.query.items[indexPath.row];
-        DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
-        [controller setDetailItem:object];
+        MPMediaItemCollection *albumItem = [self albumAtIndexPath:indexPath];
+        AlbumViewController *controller = (AlbumViewController *)[[segue destinationViewController] topViewController];
+        [controller setAlbum:albumItem];
         controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
         controller.navigationItem.leftItemsSupplementBackButton = YES;
     }
@@ -70,10 +76,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     AlbumTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
-
-    MPMediaQuerySection *mediaSection = self.query.collectionSections[indexPath.section];
     
-    MPMediaItemCollection *albumItem = self.query.collections[mediaSection.range.location + indexPath.row];
+    MPMediaItemCollection *albumItem = [self albumAtIndexPath:indexPath];
     cell.album = albumItem;
     return cell;
 }

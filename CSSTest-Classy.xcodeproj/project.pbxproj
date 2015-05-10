@@ -11,16 +11,16 @@
 		CBB3F5761AFF9D41006EDDA2 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */; };
 		CBE944231AFE7EA40036530F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944221AFE7EA40036530F /* main.m */; };
 		CBE944261AFE7EA40036530F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944251AFE7EA40036530F /* AppDelegate.m */; };
-		CBE944291AFE7EA40036530F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944281AFE7EA40036530F /* MasterViewController.m */; };
-		CBE9442C1AFE7EA40036530F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9442B1AFE7EA40036530F /* DetailViewController.m */; };
+		CBE944291AFE7EA40036530F /* AlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944281AFE7EA40036530F /* AlbumListViewController.m */; };
+		CBE9442C1AFE7EA40036530F /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9442B1AFE7EA40036530F /* AlbumViewController.m */; };
 		CBE9442F1AFE7EA40036530F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE9442D1AFE7EA40036530F /* Main.storyboard */; };
 		CBE944341AFE7EA40036530F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE944321AFE7EA40036530F /* LaunchScreen.xib */; };
 		CBE944401AFE7EA50036530F /* CSSTest_ClassyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9443F1AFE7EA50036530F /* CSSTest_ClassyTests.m */; };
 		CBE9444A1AFE82040036530F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CBE944491AFE82040036530F /* Podfile */; };
 		CBE944891AFE9A4C0036530F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944881AFE9A4C0036530F /* main.m */; };
 		CBE9448C1AFE9A4C0036530F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9448B1AFE9A4C0036530F /* AppDelegate.m */; };
-		CBE9448F1AFE9A4C0036530F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9448E1AFE9A4C0036530F /* MasterViewController.m */; };
-		CBE944921AFE9A4C0036530F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944911AFE9A4C0036530F /* DetailViewController.m */; };
+		CBE9448F1AFE9A4C0036530F /* AlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9448E1AFE9A4C0036530F /* AlbumListViewController.m */; };
+		CBE944921AFE9A4C0036530F /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE944911AFE9A4C0036530F /* AlbumViewController.m */; };
 		CBE944951AFE9A4C0036530F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE944931AFE9A4C0036530F /* Main.storyboard */; };
 		CBE944971AFE9A4C0036530F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE944961AFE9A4C0036530F /* Images.xcassets */; };
 		CBE9449A1AFE9A4C0036530F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE944981AFE9A4C0036530F /* LaunchScreen.xib */; };
@@ -64,10 +64,10 @@
 		CBE944221AFE7EA40036530F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBE944241AFE7EA40036530F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBE944251AFE7EA40036530F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBE944271AFE7EA40036530F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CBE944281AFE7EA40036530F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CBE9442A1AFE7EA40036530F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CBE9442B1AFE7EA40036530F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CBE944271AFE7EA40036530F /* AlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumListViewController.h; sourceTree = "<group>"; };
+		CBE944281AFE7EA40036530F /* AlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumListViewController.m; sourceTree = "<group>"; };
+		CBE9442A1AFE7EA40036530F /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		CBE9442B1AFE7EA40036530F /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 		CBE9442E1AFE7EA40036530F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBE944331AFE7EA40036530F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CBE944391AFE7EA50036530F /* CSSTest-ClassyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CSSTest-ClassyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,10 +79,10 @@
 		CBE944881AFE9A4C0036530F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBE9448A1AFE9A4C0036530F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBE9448B1AFE9A4C0036530F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBE9448D1AFE9A4C0036530F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CBE9448E1AFE9A4C0036530F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CBE944901AFE9A4C0036530F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CBE944911AFE9A4C0036530F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CBE9448D1AFE9A4C0036530F /* AlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumListViewController.h; sourceTree = "<group>"; };
+		CBE9448E1AFE9A4C0036530F /* AlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumListViewController.m; sourceTree = "<group>"; };
+		CBE944901AFE9A4C0036530F /* AlbumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		CBE944911AFE9A4C0036530F /* AlbumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 		CBE944941AFE9A4C0036530F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBE944961AFE9A4C0036530F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "CSSTest-Interfa/Images.xcassets"; sourceTree = "<group>"; };
 		CBE944991AFE9A4C0036530F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -169,12 +169,12 @@
 			children = (
 				CBE944241AFE7EA40036530F /* AppDelegate.h */,
 				CBE944251AFE7EA40036530F /* AppDelegate.m */,
-				CBE944271AFE7EA40036530F /* MasterViewController.h */,
-				CBE944281AFE7EA40036530F /* MasterViewController.m */,
+				CBE944271AFE7EA40036530F /* AlbumListViewController.h */,
+				CBE944281AFE7EA40036530F /* AlbumListViewController.m */,
 				CBB3F5741AFF9D40006EDDA2 /* AlbumTableViewCell.h */,
 				CBB3F5751AFF9D41006EDDA2 /* AlbumTableViewCell.m */,
-				CBE9442A1AFE7EA40036530F /* DetailViewController.h */,
-				CBE9442B1AFE7EA40036530F /* DetailViewController.m */,
+				CBE9442A1AFE7EA40036530F /* AlbumViewController.h */,
+				CBE9442B1AFE7EA40036530F /* AlbumViewController.m */,
 				CBE9442D1AFE7EA40036530F /* Main.storyboard */,
 				CBE944321AFE7EA40036530F /* LaunchScreen.xib */,
 				CBE944201AFE7EA40036530F /* Supporting Files */,
@@ -213,10 +213,10 @@
 			children = (
 				CBE9448A1AFE9A4C0036530F /* AppDelegate.h */,
 				CBE9448B1AFE9A4C0036530F /* AppDelegate.m */,
-				CBE9448D1AFE9A4C0036530F /* MasterViewController.h */,
-				CBE9448E1AFE9A4C0036530F /* MasterViewController.m */,
-				CBE944901AFE9A4C0036530F /* DetailViewController.h */,
-				CBE944911AFE9A4C0036530F /* DetailViewController.m */,
+				CBE9448D1AFE9A4C0036530F /* AlbumListViewController.h */,
+				CBE9448E1AFE9A4C0036530F /* AlbumListViewController.m */,
+				CBE944901AFE9A4C0036530F /* AlbumViewController.h */,
+				CBE944911AFE9A4C0036530F /* AlbumViewController.m */,
 				CBE944931AFE9A4C0036530F /* Main.storyboard */,
 				CBE944981AFE9A4C0036530F /* LaunchScreen.xib */,
 				CBE944861AFE9A4C0036530F /* Supporting Files */,
@@ -547,9 +547,9 @@
 				CBE944261AFE7EA40036530F /* AppDelegate.m in Sources */,
 				CBB3F5761AFF9D41006EDDA2 /* AlbumTableViewCell.m in Sources */,
 				CBE944B41AFF84300036530F /* DataModel.m in Sources */,
-				CBE944291AFE7EA40036530F /* MasterViewController.m in Sources */,
+				CBE944291AFE7EA40036530F /* AlbumListViewController.m in Sources */,
 				CBE944231AFE7EA40036530F /* main.m in Sources */,
-				CBE9442C1AFE7EA40036530F /* DetailViewController.m in Sources */,
+				CBE9442C1AFE7EA40036530F /* AlbumViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,9 +567,9 @@
 			files = (
 				CBE9448C1AFE9A4C0036530F /* AppDelegate.m in Sources */,
 				CBE944B51AFF84300036530F /* DataModel.m in Sources */,
-				CBE9448F1AFE9A4C0036530F /* MasterViewController.m in Sources */,
+				CBE9448F1AFE9A4C0036530F /* AlbumListViewController.m in Sources */,
 				CBE944891AFE9A4C0036530F /* main.m in Sources */,
-				CBE944921AFE9A4C0036530F /* DetailViewController.m in Sources */,
+				CBE944921AFE9A4C0036530F /* AlbumViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
