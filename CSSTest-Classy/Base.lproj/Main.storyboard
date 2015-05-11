@@ -43,24 +43,34 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5HF-3T-uRZ">
                                 <rect key="frame" x="16" y="500" width="568" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xs4-w1-Vwl">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-Hz-m2J" userLabel="Previus Button">
+                                        <rect key="frame" x="174" y="28" width="44" height="44"/>
+                                        <state key="normal" image="rewind">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playPreviousTrack:" destination="JEX-9P-axG" eventType="touchUpInside" id="kH7-DE-nLT"/>
+                                            <action selector="playPreviusTrack:" destination="JEX-9P-axG" eventType="touchUpInside" id="K0f-WW-0T8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bQ-tE-7AO" userLabel="Next Button">
+                                        <rect key="frame" x="350" y="28" width="44" height="44"/>
+                                        <state key="normal" image="forward">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="playNextTrack:" destination="JEX-9P-axG" eventType="touchUpInside" id="t9l-bO-nls"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xs4-w1-Vwl" userLabel="Play Button">
                                         <rect key="frame" x="262" y="28" width="44" height="44"/>
                                         <state key="normal" image="play">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="selected" image="pause"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bQ-tE-7AO">
-                                        <rect key="frame" x="350" y="28" width="44" height="44"/>
-                                        <state key="normal" image="forward">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pC-Hz-m2J">
-                                        <rect key="frame" x="174" y="28" width="44" height="44"/>
-                                        <state key="normal" image="rewind">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
+                                        <connections>
+                                            <action selector="togglePlayPause:" destination="JEX-9P-axG" eventType="touchUpInside" id="yIX-3u-jIb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -137,6 +147,7 @@
                         <outlet property="artistLabel" destination="jok-qN-M7b" id="TP6-d3-9BN"/>
                         <outlet property="artworkImageView" destination="49X-BV-auG" id="PTl-m2-FNm"/>
                         <outlet property="genreLabel" destination="Wiy-VJ-Yqa" id="ptu-C7-yRI"/>
+                        <outlet property="playPauseButton" destination="xs4-w1-Vwl" id="kjY-do-5rd"/>
                         <outlet property="yearLabel" destination="VnX-IL-TlP" id="90J-w7-Btq"/>
                     </connections>
                 </viewController>

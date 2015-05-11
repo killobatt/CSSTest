@@ -8,6 +8,7 @@
 
 #import "AlbumViewController.h"
 #import "AlbumTracksViewController.h"
+#import "AlbumPlayer.h"
 
 @interface AlbumViewController ()
 
@@ -16,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 @property (weak, nonatomic) IBOutlet UILabel *genreLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *artworkImageView;
+@property (weak, nonatomic) IBOutlet UIButton *playPauseButton;
 
 @property (strong, nonatomic) NSDateFormatter *yearFormatter;
 @property (strong, nonatomic) AlbumTracksViewController *tracksController;
@@ -67,6 +69,8 @@
         }
     }
     self.tracksController.album = self.album;
+    
+    self.playPauseButton.selected = [[[AlbumPlayer sharedInstance] player] playbackState] == MPMoviePlaybackStatePlaying;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -75,6 +79,28 @@
         self.tracksController = (AlbumTracksViewController *)segue.destinationViewController;
         self.tracksController.album = self.album;
     }
+}
+
+- (IBAction)playPreviousTrack:(id)sender
+{
+    [[AlbumPlayer sharedInstance].player skipToPreviousItem];
+}
+
+- (IBAction)playNextTrack:(id)sender
+{
+    [[AlbumPlayer sharedInstance].player skipToNextItem];
+}
+
+- (IBAction)togglePlayPause:(id)sender
+{
+    MPMusicPlayerController *player = [[AlbumPlayer sharedInstance] player];
+    
+    if (player.playbackState == MPMoviePlaybackStatePlaying) {
+        [player pause];
+    } else {
+        [player play];
+    }
+    self.playPauseButton.selected = [[[AlbumPlayer sharedInstance] player] playbackState] == MPMoviePlaybackStatePlaying;
 }
 
 @end
