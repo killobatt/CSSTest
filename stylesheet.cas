@@ -1,0 +1,38 @@
+@import "classy-constants.cas"
+
+UILabel.title {
+    font: $title-font;
+    textColor: $accent-color;
+}
+
+UILabel.subtitle {
+    font: $subtitle-font;
+    textColor: black;
+}
+
+UILabel.accessory {
+    font: $accessory-font;
+    textColor: #B8B8B8;
+}
+
+UITableView {
+    tintColor: $accent-color;
+}
+
+UIButton {
+    tintColor: $accent-color;
+}
+
+UINavigationBar {
+    tintColor: $accent-color;
+}
+
+UIImageView.album {
+    
+    clipsToBounds: true;
+    layer @{
+        border-width:   1;
+        border-color:   black;
+        cornerRadius: 10;
+    }
+}

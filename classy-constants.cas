@@ -1,0 +1,12 @@
+
+// Accent color constants
+$accent-color-red = red;
+$accent-color-blue = blue;
+$accent-color-yellow = #e1e1e1;
+
+$accent-color = #6CD58B;
+
+// Font constants
+$title-font = Thonburi-Bold 20;
+$subtitle-font = Thonburi 16;
+$accessory-font = Thonburi 14;
